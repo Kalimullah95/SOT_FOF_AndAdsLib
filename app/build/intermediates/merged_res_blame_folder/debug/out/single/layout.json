@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.sot.adslib.app-mergeDebugResources-62:/layout/activity_final.xml",
+        "source": "com.sot.adslib.app-main-65:/layout/activity_final.xml"
+    },
+    {
+        "merged": "com.sot.adslib.app-mergeDebugResources-62:/layout/layout_welcome_scr_test.xml",
+        "source": "com.sot.adslib.app-main-65:/layout/layout_welcome_scr_test.xml"
+    },
+    {
+        "merged": "com.sot.adslib.app-mergeDebugResources-62:/layout/activity_sotstart_test.xml",
+        "source": "com.sot.adslib.app-main-65:/layout/activity_sotstart_test.xml"
+    }
+]

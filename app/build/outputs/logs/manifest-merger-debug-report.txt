@@ -1,0 +1,965 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:2:1-36:12
+MERGED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-44:12
+MERGED from [androidx.databinding:viewbinding:8.1.4] C:\Users\RYZEN\.gradle\caches\transforms-3\b3991c5db1a631d881bbf0a3259d5ed2\transformed\viewbinding-8.1.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e81cfe1c3dbb6721e63bc3d1c6ec179a\transformed\navigation-common-2.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\ae191fd395a924a4af5baeb869f0137e\transformed\navigation-common-ktx-2.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\c44e267d3c773a5a968baae15784d621\transformed\navigation-runtime-2.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\dc896572d31e789b7a6d259ae2e97a03\transformed\navigation-runtime-ktx-2.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\cfe095b1d543fb980deda36af26f7279\transformed\navigation-fragment-2.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\f01b6fe4d50f741824e660e17a57a4cf\transformed\navigation-fragment-ktx-2.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\4f0bdf1492a1e5cf02c39cc56357f314\transformed\navigation-ui-ktx-2.8.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\d0da284c9bd9048ab8672a2e950cb2db\transformed\navigation-ui-2.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\RYZEN\.gradle\caches\transforms-3\2d3500854af37b72c1cd79fcf24ff82c\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\RYZEN\.gradle\caches\transforms-3\7a19f0a5c3d2f45c0c787a725c2f6493\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:6.5.1] C:\Users\RYZEN\.gradle\caches\transforms-3\01235f9e2f482174f4eb5fef817ab881\transformed\lottie-6.5.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\41cbcbbe8025bf512137a847deeef7ad\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\29caa8884aa9dfcbf77e681d30dab9bb\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\RYZEN\.gradle\caches\transforms-3\26ef5fd2acbc3cf382736a3afcca42ad\transformed\glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\db0a875e0e15076804d7234ce7a69961\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\015ea5f742f004ee17fc7a9feed54d74\transformed\play-services-ads-23.6.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:17:1-112:12
+MERGED from [com.google.android.ump:user-messaging-platform:3.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\79cf7d7625cfc48afa2d7abaae6d7f55\transformed\user-messaging-platform-3.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:2:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-base:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\2e892fc811e5519e172e0f4d5ae72ced\transformed\play-services-ads-base-23.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a12dc2ceab7b918993f102e8d18c461\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\RYZEN\.gradle\caches\transforms-3\c0e7daeff5b1478ab1bc828810980b5f\transformed\play-services-appset-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\ddbdb81754333a37abe782d24bb51981\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\9ab80779a20dab7ae4a39ce73f48dc5d\transformed\play-services-measurement-base-20.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4242b8b28ab7df0a9999c7a4690a4504\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\RYZEN\.gradle\caches\transforms-3\59b509c4c7dc8bdc4680dcb69a8d8caf\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\RYZEN\.gradle\caches\transforms-3\e8c1454aeeda0534f2d7e33076df9d11\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\RYZEN\.gradle\caches\transforms-3\5dd11708361c4c443af4cc8ad656d068\transformed\activity-ktx-1.9.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\RYZEN\.gradle\caches\transforms-3\bd5c199bad783e6230427a1b43fb76e6\transformed\activity-1.9.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aafd7e6d71cef0fa3c3bba222aa3263d\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\320a175059e0af4e6d61f5a6f9cc8da0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\8bbb08018686f58cbd57649f9415d6fc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\29c9c7cd4bcc2bd2902181e2993e4d06\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\RYZEN\.gradle\caches\transforms-3\7f0ccd5a20c2f531b2ee646d685c9d54\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c3a1d691c1108a767c62f91053eb78c9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b1cdd287828765c955019512cdcb10ff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\8d40c84179c5a35c868d9a19c0878877\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b670a8fd9c07f0f1a654329ed2b8e64b\transformed\browser-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.webkit:webkit:1.11.0-alpha02] C:\Users\RYZEN\.gradle\caches\transforms-3\d91a64a7c54bac26c55efc7755db9cd9\transformed\webkit-1.11.0-alpha02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d55e6067c10523bc139844c35c00a2a9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b2eebc68e8c725157a8933c88cd5c017\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\10082086f23194c91219b23786987f6f\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c2a2ace685c3690ea87534c575d77f17\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\7558fd4207f7a56fe5081ffc1705cb79\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\ca96ce1f287e00eafe1e7ca6638b6830\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\118b18701b0fa7bc3424ea9d9cc0b551\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\RYZEN\.gradle\caches\transforms-3\44d437629ee6491b50e85e76a4de8314\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\RYZEN\.gradle\caches\transforms-3\f2a1e5f66dd62d8ec057a68217672110\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\3c8b565d9680c8def9518d5e5d4df54f\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\1dcd33494b3c29c5f45c28a44b6adacb\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7cf3d3262b222fd9a05e5fa39568567e\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\404f820ef207a90901234e90a9c6bd28\transformed\lifecycle-service-2.8.6\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\bd6ac0dc96a962b1bab4565b6435991e\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\4c43560a3dabdb1f13c7d912980c87d3\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\6b859d30baa6cea632b7e0bf6731ef7f\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\bdbfcb87740b8a6b74b110ae1342f5af\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\42baa1b6feacfd58b37761d2d96dc814\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\2edd2f72a689c339138b84df1def68d7\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\3256d9b293559cec49eb7476fa0e51e9\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\RYZEN\.gradle\caches\transforms-3\651e5f679b528f2016c974a93400442d\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9022a82e970b4f905b27b1169bdafdf7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\RYZEN\.gradle\caches\transforms-3\a06c7625fed609ebac546509e71dfdda\transformed\shimmer-0.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c4bf7c524042823bb14f654cf88e9f8f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\9bf658d82598ab228d5a0688ba7047ec\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e3f1408417455e07c133cf947a8b6dd6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4293e5dded43b559c833261757d10f81\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c92d33659f1c461ca9e94b9a5f338f3\transformed\gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\RYZEN\.gradle\caches\transforms-3\ca79cc5bd69ddbe16061cd1728d596bb\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18616af16a107a05e5ad56759900492f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c7e74842b298b501a0f49686242d55dc\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\48f999d50926131cdeeee71321d737de\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\15147ae67ac1142fa2a0fc4582d34d54\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\7575504063e65ef0b265b56044bfe4ab\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b01fee6d2ed1562fb8ccf4b368f86897\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\1832ad8882e501d541061fe03dc943f6\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.intuit.ssp:ssp-android:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\acb7bbe1c9d17cdad42db45da8e2222d\transformed\ssp-android-1.1.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.intuit.sdp:sdp-android:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\b090bbe0d91703e435b5bcfb464edc9f\transformed\sdp-android-1.1.1\AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:5:4-34:19
+INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:5:4-34:19
+MERGED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-42:19
+MERGED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-42:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\RYZEN\.gradle\caches\transforms-3\2d3500854af37b72c1cd79fcf24ff82c\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\RYZEN\.gradle\caches\transforms-3\2d3500854af37b72c1cd79fcf24ff82c\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\RYZEN\.gradle\caches\transforms-3\7a19f0a5c3d2f45c0c787a725c2f6493\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\RYZEN\.gradle\caches\transforms-3\7a19f0a5c3d2f45c0c787a725c2f6493\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:6.5.1] C:\Users\RYZEN\.gradle\caches\transforms-3\01235f9e2f482174f4eb5fef817ab881\transformed\lottie-6.5.1\AndroidManifest.xml:7:5-20
+MERGED from [com.airbnb.android:lottie:6.5.1] C:\Users\RYZEN\.gradle\caches\transforms-3\01235f9e2f482174f4eb5fef817ab881\transformed\lottie-6.5.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:70:5-110:19
+MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:70:5-110:19
+MERGED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:18:5-29:19
+MERGED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:18:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-base:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\2e892fc811e5519e172e0f4d5ae72ced\transformed\play-services-ads-base-23.6.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\2e892fc811e5519e172e0f4d5ae72ced\transformed\play-services-ads-base-23.6.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a12dc2ceab7b918993f102e8d18c461\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a12dc2ceab7b918993f102e8d18c461\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\RYZEN\.gradle\caches\transforms-3\c0e7daeff5b1478ab1bc828810980b5f\transformed\play-services-appset-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\RYZEN\.gradle\caches\transforms-3\c0e7daeff5b1478ab1bc828810980b5f\transformed\play-services-appset-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\ddbdb81754333a37abe782d24bb51981\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\ddbdb81754333a37abe782d24bb51981\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\9ab80779a20dab7ae4a39ce73f48dc5d\transformed\play-services-measurement-base-20.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\9ab80779a20dab7ae4a39ce73f48dc5d\transformed\play-services-measurement-base-20.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4242b8b28ab7df0a9999c7a4690a4504\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4242b8b28ab7df0a9999c7a4690a4504\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\118b18701b0fa7bc3424ea9d9cc0b551\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\118b18701b0fa7bc3424ea9d9cc0b551\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9022a82e970b4f905b27b1169bdafdf7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9022a82e970b4f905b27b1169bdafdf7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e3f1408417455e07c133cf947a8b6dd6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e3f1408417455e07c133cf947a8b6dd6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+	android:extractNativeLibs
+		INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:11:9-47
+	tools:targetApi
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:9:9-42
+	android:allowBackup
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:13:9-51
+	android:dataExtractionRules
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:7:9-65
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:15:9-17:70
+	android:value
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:17:13-67
+	android:name
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:16:13-69
+activity#com.sot.adslib.FinalActivity
+ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:20:13-42
+activity#com.sot.adslib.SOTStartTestActivity
+ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:exported
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:23:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:28:27-74
+meta-data#com.google.android.gms.ads.flag.NATIVE_AD_DEBUGGER_ENABLED
+ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:31:9-33:37
+MERGED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:37
+MERGED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:37
+	android:value
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:33:13-34
+	android:name
+		ADDED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml:32:13-86
+uses-sdk
+INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml
+INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml
+MERGED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.4] C:\Users\RYZEN\.gradle\caches\transforms-3\b3991c5db1a631d881bbf0a3259d5ed2\transformed\viewbinding-8.1.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.4] C:\Users\RYZEN\.gradle\caches\transforms-3\b3991c5db1a631d881bbf0a3259d5ed2\transformed\viewbinding-8.1.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e81cfe1c3dbb6721e63bc3d1c6ec179a\transformed\navigation-common-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e81cfe1c3dbb6721e63bc3d1c6ec179a\transformed\navigation-common-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\ae191fd395a924a4af5baeb869f0137e\transformed\navigation-common-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\ae191fd395a924a4af5baeb869f0137e\transformed\navigation-common-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\c44e267d3c773a5a968baae15784d621\transformed\navigation-runtime-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\c44e267d3c773a5a968baae15784d621\transformed\navigation-runtime-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\dc896572d31e789b7a6d259ae2e97a03\transformed\navigation-runtime-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\dc896572d31e789b7a6d259ae2e97a03\transformed\navigation-runtime-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\cfe095b1d543fb980deda36af26f7279\transformed\navigation-fragment-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\cfe095b1d543fb980deda36af26f7279\transformed\navigation-fragment-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\f01b6fe4d50f741824e660e17a57a4cf\transformed\navigation-fragment-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\f01b6fe4d50f741824e660e17a57a4cf\transformed\navigation-fragment-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\4f0bdf1492a1e5cf02c39cc56357f314\transformed\navigation-ui-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\4f0bdf1492a1e5cf02c39cc56357f314\transformed\navigation-ui-ktx-2.8.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\d0da284c9bd9048ab8672a2e950cb2db\transformed\navigation-ui-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.8.1] C:\Users\RYZEN\.gradle\caches\transforms-3\d0da284c9bd9048ab8672a2e950cb2db\transformed\navigation-ui-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\RYZEN\.gradle\caches\transforms-3\2d3500854af37b72c1cd79fcf24ff82c\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\RYZEN\.gradle\caches\transforms-3\2d3500854af37b72c1cd79fcf24ff82c\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\RYZEN\.gradle\caches\transforms-3\7a19f0a5c3d2f45c0c787a725c2f6493\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\RYZEN\.gradle\caches\transforms-3\7a19f0a5c3d2f45c0c787a725c2f6493\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:6.5.1] C:\Users\RYZEN\.gradle\caches\transforms-3\01235f9e2f482174f4eb5fef817ab881\transformed\lottie-6.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie:6.5.1] C:\Users\RYZEN\.gradle\caches\transforms-3\01235f9e2f482174f4eb5fef817ab881\transformed\lottie-6.5.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\41cbcbbe8025bf512137a847deeef7ad\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\41cbcbbe8025bf512137a847deeef7ad\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\29caa8884aa9dfcbf77e681d30dab9bb\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\29caa8884aa9dfcbf77e681d30dab9bb\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\RYZEN\.gradle\caches\transforms-3\26ef5fd2acbc3cf382736a3afcca42ad\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\RYZEN\.gradle\caches\transforms-3\26ef5fd2acbc3cf382736a3afcca42ad\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\db0a875e0e15076804d7234ce7a69961\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\db0a875e0e15076804d7234ce7a69961\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-ads:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\015ea5f742f004ee17fc7a9feed54d74\transformed\play-services-ads-23.6.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\015ea5f742f004ee17fc7a9feed54d74\transformed\play-services-ads-23.6.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.ump:user-messaging-platform:3.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\79cf7d7625cfc48afa2d7abaae6d7f55\transformed\user-messaging-platform-3.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.ump:user-messaging-platform:3.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\79cf7d7625cfc48afa2d7abaae6d7f55\transformed\user-messaging-platform-3.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-ads-base:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\2e892fc811e5519e172e0f4d5ae72ced\transformed\play-services-ads-base-23.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\2e892fc811e5519e172e0f4d5ae72ced\transformed\play-services-ads-base-23.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a12dc2ceab7b918993f102e8d18c461\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a12dc2ceab7b918993f102e8d18c461\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\RYZEN\.gradle\caches\transforms-3\c0e7daeff5b1478ab1bc828810980b5f\transformed\play-services-appset-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\RYZEN\.gradle\caches\transforms-3\c0e7daeff5b1478ab1bc828810980b5f\transformed\play-services-appset-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\ddbdb81754333a37abe782d24bb51981\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\ddbdb81754333a37abe782d24bb51981\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\9ab80779a20dab7ae4a39ce73f48dc5d\transformed\play-services-measurement-base-20.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\9ab80779a20dab7ae4a39ce73f48dc5d\transformed\play-services-measurement-base-20.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4242b8b28ab7df0a9999c7a4690a4504\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4242b8b28ab7df0a9999c7a4690a4504\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\RYZEN\.gradle\caches\transforms-3\59b509c4c7dc8bdc4680dcb69a8d8caf\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\RYZEN\.gradle\caches\transforms-3\59b509c4c7dc8bdc4680dcb69a8d8caf\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\RYZEN\.gradle\caches\transforms-3\e8c1454aeeda0534f2d7e33076df9d11\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\RYZEN\.gradle\caches\transforms-3\e8c1454aeeda0534f2d7e33076df9d11\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\RYZEN\.gradle\caches\transforms-3\5dd11708361c4c443af4cc8ad656d068\transformed\activity-ktx-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] C:\Users\RYZEN\.gradle\caches\transforms-3\5dd11708361c4c443af4cc8ad656d068\transformed\activity-ktx-1.9.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\RYZEN\.gradle\caches\transforms-3\bd5c199bad783e6230427a1b43fb76e6\transformed\activity-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] C:\Users\RYZEN\.gradle\caches\transforms-3\bd5c199bad783e6230427a1b43fb76e6\transformed\activity-1.9.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aafd7e6d71cef0fa3c3bba222aa3263d\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aafd7e6d71cef0fa3c3bba222aa3263d\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\320a175059e0af4e6d61f5a6f9cc8da0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\320a175059e0af4e6d61f5a6f9cc8da0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\8bbb08018686f58cbd57649f9415d6fc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\8bbb08018686f58cbd57649f9415d6fc\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\29c9c7cd4bcc2bd2902181e2993e4d06\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\29c9c7cd4bcc2bd2902181e2993e4d06\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\RYZEN\.gradle\caches\transforms-3\7f0ccd5a20c2f531b2ee646d685c9d54\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\RYZEN\.gradle\caches\transforms-3\7f0ccd5a20c2f531b2ee646d685c9d54\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c3a1d691c1108a767c62f91053eb78c9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c3a1d691c1108a767c62f91053eb78c9\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b1cdd287828765c955019512cdcb10ff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b1cdd287828765c955019512cdcb10ff\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\8d40c84179c5a35c868d9a19c0878877\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\8d40c84179c5a35c868d9a19c0878877\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b670a8fd9c07f0f1a654329ed2b8e64b\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b670a8fd9c07f0f1a654329ed2b8e64b\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.11.0-alpha02] C:\Users\RYZEN\.gradle\caches\transforms-3\d91a64a7c54bac26c55efc7755db9cd9\transformed\webkit-1.11.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.11.0-alpha02] C:\Users\RYZEN\.gradle\caches\transforms-3\d91a64a7c54bac26c55efc7755db9cd9\transformed\webkit-1.11.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d55e6067c10523bc139844c35c00a2a9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d55e6067c10523bc139844c35c00a2a9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b2eebc68e8c725157a8933c88cd5c017\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b2eebc68e8c725157a8933c88cd5c017\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\10082086f23194c91219b23786987f6f\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\10082086f23194c91219b23786987f6f\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c2a2ace685c3690ea87534c575d77f17\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c2a2ace685c3690ea87534c575d77f17\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\7558fd4207f7a56fe5081ffc1705cb79\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\7558fd4207f7a56fe5081ffc1705cb79\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\ca96ce1f287e00eafe1e7ca6638b6830\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\ca96ce1f287e00eafe1e7ca6638b6830\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\118b18701b0fa7bc3424ea9d9cc0b551\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\118b18701b0fa7bc3424ea9d9cc0b551\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\RYZEN\.gradle\caches\transforms-3\44d437629ee6491b50e85e76a4de8314\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\RYZEN\.gradle\caches\transforms-3\44d437629ee6491b50e85e76a4de8314\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\RYZEN\.gradle\caches\transforms-3\f2a1e5f66dd62d8ec057a68217672110\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\RYZEN\.gradle\caches\transforms-3\f2a1e5f66dd62d8ec057a68217672110\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\3c8b565d9680c8def9518d5e5d4df54f\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\3c8b565d9680c8def9518d5e5d4df54f\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\1dcd33494b3c29c5f45c28a44b6adacb\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\1dcd33494b3c29c5f45c28a44b6adacb\transformed\lifecycle-viewmodel-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7cf3d3262b222fd9a05e5fa39568567e\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7cf3d3262b222fd9a05e5fa39568567e\transformed\lifecycle-livedata-core-ktx-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\404f820ef207a90901234e90a9c6bd28\transformed\lifecycle-service-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\404f820ef207a90901234e90a9c6bd28\transformed\lifecycle-service-2.8.6\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\bd6ac0dc96a962b1bab4565b6435991e\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\bd6ac0dc96a962b1bab4565b6435991e\transformed\lifecycle-livedata-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\4c43560a3dabdb1f13c7d912980c87d3\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\4c43560a3dabdb1f13c7d912980c87d3\transformed\lifecycle-livedata-core-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\6b859d30baa6cea632b7e0bf6731ef7f\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\6b859d30baa6cea632b7e0bf6731ef7f\transformed\lifecycle-viewmodel-2.8.6\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\bdbfcb87740b8a6b74b110ae1342f5af\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\bdbfcb87740b8a6b74b110ae1342f5af\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\42baa1b6feacfd58b37761d2d96dc814\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\42baa1b6feacfd58b37761d2d96dc814\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\2edd2f72a689c339138b84df1def68d7\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\2edd2f72a689c339138b84df1def68d7\transformed\lifecycle-viewmodel-savedstate-2.8.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\3256d9b293559cec49eb7476fa0e51e9\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\3256d9b293559cec49eb7476fa0e51e9\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\RYZEN\.gradle\caches\transforms-3\651e5f679b528f2016c974a93400442d\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\RYZEN\.gradle\caches\transforms-3\651e5f679b528f2016c974a93400442d\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9022a82e970b4f905b27b1169bdafdf7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9022a82e970b4f905b27b1169bdafdf7\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\RYZEN\.gradle\caches\transforms-3\a06c7625fed609ebac546509e71dfdda\transformed\shimmer-0.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\RYZEN\.gradle\caches\transforms-3\a06c7625fed609ebac546509e71dfdda\transformed\shimmer-0.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c4bf7c524042823bb14f654cf88e9f8f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c4bf7c524042823bb14f654cf88e9f8f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\9bf658d82598ab228d5a0688ba7047ec\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\9bf658d82598ab228d5a0688ba7047ec\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e3f1408417455e07c133cf947a8b6dd6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e3f1408417455e07c133cf947a8b6dd6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4293e5dded43b559c833261757d10f81\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4293e5dded43b559c833261757d10f81\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c92d33659f1c461ca9e94b9a5f338f3\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c92d33659f1c461ca9e94b9a5f338f3\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\RYZEN\.gradle\caches\transforms-3\ca79cc5bd69ddbe16061cd1728d596bb\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\RYZEN\.gradle\caches\transforms-3\ca79cc5bd69ddbe16061cd1728d596bb\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18616af16a107a05e5ad56759900492f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18616af16a107a05e5ad56759900492f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c7e74842b298b501a0f49686242d55dc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c7e74842b298b501a0f49686242d55dc\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\48f999d50926131cdeeee71321d737de\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\48f999d50926131cdeeee71321d737de\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\15147ae67ac1142fa2a0fc4582d34d54\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\15147ae67ac1142fa2a0fc4582d34d54\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\7575504063e65ef0b265b56044bfe4ab\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\7575504063e65ef0b265b56044bfe4ab\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b01fee6d2ed1562fb8ccf4b368f86897\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\RYZEN\.gradle\caches\transforms-3\b01fee6d2ed1562fb8ccf4b368f86897\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\1832ad8882e501d541061fe03dc943f6\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\1832ad8882e501d541061fe03dc943f6\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.intuit.ssp:ssp-android:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\acb7bbe1c9d17cdad42db45da8e2222d\transformed\ssp-android-1.1.1\AndroidManifest.xml:7:5-44
+MERGED from [com.intuit.ssp:ssp-android:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\acb7bbe1c9d17cdad42db45da8e2222d\transformed\ssp-android-1.1.1\AndroidManifest.xml:7:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\b090bbe0d91703e435b5bcfb464edc9f\transformed\sdp-android-1.1.1\AndroidManifest.xml:7:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\b090bbe0d91703e435b5bcfb464edc9f\transformed\sdp-android-1.1.1\AndroidManifest.xml:7:5-44
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\015ea5f742f004ee17fc7a9feed54d74\transformed\play-services-ads-23.6.0\AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Kalimullah_Dev\SOT-Ad-Lib\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:24:5-67
+MERGED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:15:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:25:5-79
+MERGED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:16:5-79
+MERGED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:16:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-12:31
+REJECTED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:26:5-79
+REJECTED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a12dc2ceab7b918993f102e8d18c461\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+REJECTED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:26:5-79
+	tools:node
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-28
+	android:name
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-63
+activity#com.manual.mediation.library.sotadlib.activities.LanguageScreenOne
+ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-18:52
+	android:screenOrientation
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-49
+	android:exported
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-94
+activity#com.manual.mediation.library.sotadlib.activities.LanguageScreenDup
+ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-22:52
+	android:screenOrientation
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-49
+	android:exported
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-94
+activity#com.manual.mediation.library.sotadlib.activities.WelcomeScreenOne
+ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-26:52
+	android:screenOrientation
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-49
+	android:exported
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-93
+activity#com.manual.mediation.library.sotadlib.activities.WelcomeScreenDup
+ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-30:52
+	android:screenOrientation
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-49
+	android:exported
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-93
+activity#com.manual.mediation.library.sotadlib.activities.WalkThroughConfigActivity
+ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-34:52
+	android:screenOrientation
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-49
+	android:exported
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-102
+meta-data#preloaded_fonts
+ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:9-38:57
+	android:resource
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-54
+	android:name
+		ADDED from [:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-43
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:27:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:27:22-79
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:28:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:28:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_TOPICS
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:29:5-83
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:29:22-80
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:30:5-32:31
+REJECTED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:27:5-81
+	tools:node
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:32:9-28
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:31:9-65
+queries
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:35:5-68:15
+MERGED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:11:5-13:15
+MERGED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:11:5-13:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:38:9-44:18
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:39:13-65
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:39:21-62
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:41:13-74
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:41:23-71
+data
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:43:13-44
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:43:19-41
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:47:9-49:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:48:13-90
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:48:21-87
+intent#action:name:android.intent.action.INSERT+data:mimeType:vnd.android.cursor.dir/event
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:52:9-56:18
+action#android.intent.action.INSERT
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:53:13-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:53:21-64
+intent#action:name:android.intent.action.VIEW+data:scheme:sms
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:57:9-61:18
+intent#action:name:android.intent.action.DIAL+data:path:tel:
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:62:9-66:18
+action#android.intent.action.DIAL
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:63:13-65
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:63:21-62
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:73:9-78:43
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:76:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:78:13-40
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:75:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:77:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:74:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:80:9-85:43
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:82:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:83:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:85:13-40
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:84:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:81:13-76
+service#com.google.android.gms.ads.AdService
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:87:9-91:43
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:89:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:90:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:91:13-40
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:88:13-64
+activity#com.google.android.gms.ads.OutOfContextTestingActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:93:9-97:43
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:96:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:97:13-40
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:95:13-122
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:94:13-82
+activity#com.google.android.gms.ads.NotificationHandlerActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:98:9-105:43
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:100:13-46
+	android:launchMode
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:102:13-44
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:101:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:105:13-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:104:13-72
+	android:taskAffinity
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:103:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:99:13-82
+property
+ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:107:9-109:62
+	android:resource
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:109:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:108:13-65
+package#com.facebook.katana
+ADDED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:12:9-55
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:12:18-52
+activity#com.facebook.ads.AudienceNetworkActivity
+ADDED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:19:9-23:75
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:22:13-37
+	android:configChanges
+		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:21:13-74
+	android:theme
+		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:23:13-72
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:20:13-68
+provider#com.facebook.ads.AudienceNetworkContentProvider
+ADDED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:25:9-28:40
+	android:authorities
+		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:27:13-82
+	android:exported
+		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:26:13-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:22-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4242b8b28ab7df0a9999c7a4690a4504\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4242b8b28ab7df0a9999c7a4690a4504\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4242b8b28ab7df0a9999c7a4690a4504\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e3f1408417455e07c133cf947a8b6dd6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e3f1408417455e07c133cf947a8b6dd6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.sot.adslib.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.sot.adslib.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\118b18701b0fa7bc3424ea9d9cc0b551\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\118b18701b0fa7bc3424ea9d9cc0b551\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\118b18701b0fa7bc3424ea9d9cc0b551\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
