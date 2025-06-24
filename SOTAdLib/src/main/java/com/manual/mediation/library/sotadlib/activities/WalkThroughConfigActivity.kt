@@ -10,9 +10,11 @@ import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsManager
 import com.manual.mediation.library.sotadlib.databinding.ActivityWalkThroughConfigBinding
 import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
+import com.manual.mediation.library.sotadlib.objects.StatusBarColor.STATUS_BAR_COLOR
 import com.manual.mediation.library.sotadlib.utils.FirebaseCommonTracker
 import com.manual.mediation.library.sotadlib.utils.NetworkCheck
 import com.manual.mediation.library.sotadlib.utils.hideSystemUIUpdated
+import com.manual.mediation.library.sotadlib.utils.setStatusBarColor
 
 class WalkThroughConfigActivity : AppCompatBaseActivity() {
 
@@ -24,9 +26,9 @@ class WalkThroughConfigActivity : AppCompatBaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        overridePendingTransition(0, 0)
         supportActionBar?.hide()
         hideSystemUIUpdated()
+        setStatusBarColor(STATUS_BAR_COLOR)
 
         // Disable back press
         onBackPressedDispatcher.addCallback(this) {
@@ -34,16 +36,13 @@ class WalkThroughConfigActivity : AppCompatBaseActivity() {
             Log.d("BackPress", "Back press disabled in walkthrough")
         }
 
-        // Inflate view
         binding = ActivityWalkThroughConfigBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Config & tracker
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
         eventTracker = sotAdsConfigurations?.walkThroughScreensConfiguration?.eventTracker
         eventTracker?.logEvent(this, "sot_fof_started")
 
-        // Setup view pager after layout pass to avoid ANR
         binding.viewPager.post {
             val myNoOfFrag = sotAdsConfigurations?.getRemoteConfigData()?.get("NATIVE_WALKTHROUGH_FULLSCR")
             val noOfFragment = if (NetworkCheck.isNetworkAvailable(this) && myNoOfFrag == true) {
@@ -63,6 +62,7 @@ class WalkThroughConfigActivity : AppCompatBaseActivity() {
                     noOfFragment,
                     eventTracker
                 )
+
             }
 
             setupPageChangeListener()

@@ -169,6 +169,8 @@ id nav_w_t_one
 id nav_w_t_three
 id nav_w_t_two
 id recyclerViewLanguage
+id root
+id root_view
 id selectedBackground
 id shimmerLayout
 id shimmerLayoutF

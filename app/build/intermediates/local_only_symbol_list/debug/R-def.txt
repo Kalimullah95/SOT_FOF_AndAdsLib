@@ -1,7 +1,10 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color purpel
+color red
 color white
+color yellow
 drawable app_icon
 drawable ic_launcher_background
 drawable ic_launcher_foreground

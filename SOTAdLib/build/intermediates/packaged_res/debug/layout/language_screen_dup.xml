@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/root_view"
     android:layout_height="match_parent"
     android:background="@color/White">
 
@@ -10,7 +11,6 @@
         android:id="@+id/mainLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/White"
         android:padding="@dimen/_10sdp"
         app:layout_constraintBottom_toTopOf="@+id/nativeAdContainerAd"
         app:layout_constraintTop_toTopOf="parent">

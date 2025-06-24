@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.manual.mediation.library.sotadlib.activities.WTTwoFragment.Companion
 import com.manual.mediation.library.sotadlib.adMobAdClasses.AdMobInterstitialInside
 import com.manual.mediation.library.sotadlib.adMobAdClasses.AdmobNativeAdManager
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
@@ -26,64 +25,65 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 class WTThreeFragment : Fragment() {
-    private lateinit var binding: FragmentWTThreeBinding
+    private var _binding: FragmentWTThreeBinding? = null
+    private val binding get() = _binding!!
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
     private lateinit var item: WalkThroughItem
     private var eventTracker: CommonEventTracker? = null
+    private var adShown = false
+
     companion object {
         private const val ARG_ITEM = "walkThroughItem"
 
-        fun newInstance(item: WalkThroughItem,tracker: CommonEventTracker? = null): WTThreeFragment {
-            val fragment = WTThreeFragment()
-            val args = Bundle().apply {
-                putParcelable(ARG_ITEM, item)
+        fun newInstance(item: WalkThroughItem, tracker: CommonEventTracker? = null): WTThreeFragment {
+            return WTThreeFragment().apply {
+                arguments = Bundle().apply {
+                    putParcelable(ARG_ITEM, item)
+                }
+                eventTracker = tracker
             }
-            fragment.arguments = args
-            fragment.eventTracker = tracker
-            return fragment
         }
-            }
-
-
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        item = arguments?.getParcelable(ARG_ITEM)
-            ?: throw IllegalStateException("WalkThroughItem must be provided")
+        arguments?.getParcelable<WalkThroughItem>(ARG_ITEM)?.let {
+            item = it
+        } ?: throw IllegalStateException("WalkThroughItem must be provided")
     }
 
-
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        binding = FragmentWTThreeBinding.inflate(inflater, container, false)
-        eventTracker?.logEvent(
-            requireContext(),
-            "walk_through_three_"
-        )
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        _binding = FragmentWTThreeBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
+        eventTracker?.logEvent(requireContext(), "walk_through_three_")
 
         Log.i("SOTStartTestActivity", "walkthrough3_scr")
 
-        lifecycleScope.launch {
+        loadImages()
+        setupTextViews()
+        setupButton()
+    }
+
+    private fun loadImages() {
+        viewLifecycleOwner.lifecycleScope.launch {
             withContext(Dispatchers.Main) {
                 context?.let {
                     Glide.with(it)
-                        .asDrawable()
                         .load(item.drawableResId)
                         .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
                         .skipMemoryCache(true)
                         .into(binding.main)
-                }
 
-            }
-            lifecycleScope.launch {
-                context?.let {
                     Glide.with(it)
-                        .asDrawable()
                         .load(item.drawableBubbleResId)
                         .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
                         .skipMemoryCache(true)
@@ -91,90 +91,84 @@ class WTThreeFragment : Fragment() {
                 }
             }
         }
+    }
 
-
+    private fun setupTextViews() {
         context?.let {
             binding.txtHeading.setTextColor(item.headingColor)
-            binding.txtDescription.setTextColor( item.descriptionColor)
+            binding.txtDescription.setTextColor(item.descriptionColor)
             binding.btnNext.setTextColor(item.nextColor)
             binding.root.setBackgroundColor(item.viewBackgroundColor)
         }
 
-
         binding.txtHeading.text = item.heading
         binding.txtDescription.text = item.description
+    }
 
-        val interstitialLetsStartEnabled = sotAdsConfigurations?.getRemoteConfigData()?.get("INTERSTITIAL_LETS_START") as? Boolean ?: false
-
+    private fun setupButton() {
         binding.btnNext.setOnClickListener {
-
-            if (interstitialLetsStartEnabled) {
-                showAdmobWTThreeInterstitial()
+            if (sotAdsConfigurations?.getRemoteConfigData()?.get("INTERSTITIAL_LETS_START") as? Boolean == true) {
+                safeShowAdmobWTThreeInterstitial()
             } else {
-
-                letsStartClick()
+                safeLetsStartClick()
             }
         }
     }
 
+    private fun safeShowAdmobWTThreeInterstitial() {
+        if (!isAdded || activity == null) return
 
-
-    private fun showAdmobWTThreeInterstitial() {
-        activity?.let { safeActivity ->
+        viewLifecycleOwner.lifecycleScope.launch {
             AdMobInterstitialInside.showIfAvailableOrLoadAdMobInterstitial(
-                context = safeActivity,
+                context = requireActivity(),
                 nameFragment = "WALKTHROUGH_3",
-                adId = sotAdsConfigurations?.firstOpenFlowAdIds?.getValue("ADMOB_INTERSTITIAL_LETS_START")!!,
+                adId = sotAdsConfigurations?.firstOpenFlowAdIds?.getValue("ADMOB_INTERSTITIAL_LETS_START") ?: "",
                 onAdClosedCallBackAdmob = {
-                    Log.i("SOT_ADS_TAG", "Interstitial : WALKTHROUGH_3 : onAdClosedCallBackAdmob()")
-                    viewLifecycleOwner.lifecycleScope.launch {
-                        delay(300)
-                        if (isAdded && activity != null) {
-                            letsStartClick()
-                        }
+                    Log.i("SOT_ADS_TAG", "Interstitial: WALKTHROUGH_3: onAdClosedCallBackAdmob()")
+                   // delay(300)
+                    if (isAdded) {
+                        safeLetsStartClick()
                     }
-
                 },
                 onAdShowedCallBackAdmob = {
-                    Log.i("SOT_ADS_TAG", "Interstitial : WALKTHROUGH_3 : onAdShowedCallBackAdmob()")
+                    Log.i("SOT_ADS_TAG", "Interstitial: WALKTHROUGH_3: onAdShowedCallBackAdmob()")
                 }
             )
         }
     }
 
+    private fun safeLetsStartClick() {
+        if (!isAdded || activity == null) return
 
-    private fun letsStartClick() {
         Log.i("SOTStartTestActivity", "walkthrough3_scr_tap_start")
-        val safeActivity = activity ?: return
-        PrefHelper(safeActivity).putBoolean("StartScreens", value = true)
+        PrefHelper(requireActivity()).putBoolean("StartScreens", value = true)
         SOTAdsManager.notifyFlowFinished()
-        safeActivity.finish()
+        requireActivity().finish()
     }
-
 
     override fun onResume() {
         super.onResume()
+        if (!isAdded) return
+
         if (!NetworkCheck.isNetworkAvailable(context)) {
             binding.glOne.setGuidelinePercent(0.8f)
             binding.nativeAdContainerAd.visibility = View.GONE
+            return
         }
 
-
-        val nativeWalkThrough3Enabled = sotAdsConfigurations?.getRemoteConfigData()?.get("NATIVE_WALKTHROUGH_3") as? Boolean ?: false
-        if (nativeWalkThrough3Enabled) {
-            showAdmobWTThreeNatives()
+        if (sotAdsConfigurations?.getRemoteConfigData()?.get("NATIVE_WALKTHROUGH_3") as? Boolean == true) {
+            safeShowAdmobWTThreeNatives()
         } else {
             binding.nativeAdContainerAd.visibility = View.GONE
         }
     }
 
-
-    private fun showAdmobWTThreeNatives() {
-        val safeActivity = activity ?: return
+    private fun safeShowAdmobWTThreeNatives() {
+        if (!isAdded || activity == null) return
 
         sotAdsConfigurations?.firstOpenFlowAdIds?.getValue("ADMOB_NATIVE_WALKTHROUGH_3")?.let { adId ->
             AdmobNativeAdManager.requestAd(
-                mContext = safeActivity,
+                mContext = requireActivity(),
                 adId = adId,
                 adName = "WALKTHROUGH_3",
                 isMedia = true,
@@ -187,14 +181,23 @@ class WTThreeFragment : Fragment() {
                 populateView = true,
                 adContainer = binding.nativeAdContainerAd,
                 onAdFailed = {
-                    binding.nativeAdContainerAd.visibility = View.GONE
+                    if (isAdded) {
+                        binding.nativeAdContainerAd.visibility = View.GONE
+                    }
                     Log.i("SOT_ADS_TAG", "WALKTHROUGH_3: Admob: onAdFailed()")
                 },
                 onAdLoaded = {
-                    binding.nativeAdContainerAd.visibility = View.VISIBLE
+                    if (isAdded) {
+                        binding.nativeAdContainerAd.visibility = View.VISIBLE
+                    }
                     Log.i("SOT_ADS_TAG", "WALKTHROUGH_3: Admob: onAdLoaded()")
                 }
             )
         }
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }

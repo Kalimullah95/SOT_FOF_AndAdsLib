@@ -2,6 +2,7 @@ package com.manual.mediation.library.sotadlib.activities
 
 import android.app.ActivityOptions
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -18,13 +19,16 @@ import com.manual.mediation.library.sotadlib.callingClasses.LanguageScreensConfi
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsManager
 import com.manual.mediation.library.sotadlib.interfaces.LanguageInterface
+import com.manual.mediation.library.sotadlib.objects.StatusBarColor.STATUS_BAR_COLOR
 import com.manual.mediation.library.sotadlib.utils.hideSystemUIUpdated
+import com.manual.mediation.library.sotadlib.utils.setStatusBarColor
 
 class LanguageScreenOne : AppCompatBaseActivity(), LanguageInterface {
 
     private lateinit var languageAdapter: LanguageAdapter
     private lateinit var recyclerView: RecyclerView
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,9 +57,10 @@ class LanguageScreenOne : AppCompatBaseActivity(), LanguageInterface {
                 findViewById<TextView>(R.id.txtAllLanguages).setTextColor(it)
             }
             config.theme?.let {
-                Log.d("fontColor", "theme: ${Integer.toHexString(it)}")
                 val rootView = findViewById<View>(R.id.root_view)
                 rootView.setBackgroundColor(it)
+                setStatusBarColor(it)
+                STATUS_BAR_COLOR = it
             }
             config.languageList?.let {
                 if (config.selectedDrawable != null && config.unSelectedDrawable != null) {

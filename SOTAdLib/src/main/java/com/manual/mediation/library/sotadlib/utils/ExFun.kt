@@ -1,11 +1,12 @@
 package com.manual.mediation.library.sotadlib.utils
 
 import android.app.Activity
+import android.graphics.Color
 import android.os.Build
 import android.view.View
 import android.view.WindowInsets
 import android.view.WindowInsetsController
-
+import androidx.annotation.ColorInt
 
 
 fun Activity.hideSystemUIUpdated() {
@@ -26,3 +27,23 @@ fun Activity.hideSystemUIUpdated() {
     }
 }
 
+fun Activity.setStatusBarColor(@ColorInt color: Int) {
+    window.statusBarColor = color
+
+    val decor = window.decorView
+    val isLight = isColorLight(color)
+    decor.systemUiVisibility = if (isLight) {
+        decor.systemUiVisibility or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+    } else {
+        decor.systemUiVisibility and View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR.inv()
+    }
+}
+
+// Helper function to determine if a color is light
+private fun isColorLight(@ColorInt color: Int): Boolean {
+    val r = (color shr 16) and 0xFF
+    val g = (color shr 8) and 0xFF
+    val b = color and 0xFF
+    val brightness = (r * 299 + g * 587 + b * 114) / 1000
+    return brightness >= 180
+}

@@ -23,7 +23,7 @@ import java.lang.String;
 
 public final class LanguageScreenOneBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final ConstraintLayout rootView_;
 
   @NonNull
   public final FrameLayout bannerAdMint;
@@ -44,6 +44,9 @@ public final class LanguageScreenOneBinding implements ViewBinding {
   public final RecyclerView recyclerViewLanguage;
 
   @NonNull
+  public final ConstraintLayout rootView;
+
+  @NonNull
   public final ShimmerFrameLayout shimmerLayout;
 
   @NonNull
@@ -52,19 +55,20 @@ public final class LanguageScreenOneBinding implements ViewBinding {
   @NonNull
   public final AppCompatTextView txtSelectKeyboard;
 
-  private LanguageScreenOneBinding(@NonNull ConstraintLayout rootView,
+  private LanguageScreenOneBinding(@NonNull ConstraintLayout rootView_,
       @NonNull FrameLayout bannerAdMint, @NonNull LottieAnimationView handAnimActive,
       @NonNull AppCompatImageView imvDone, @NonNull ConstraintLayout mainLayout,
       @NonNull CardView nativeAdContainerAd, @NonNull RecyclerView recyclerViewLanguage,
-      @NonNull ShimmerFrameLayout shimmerLayout, @NonNull AppCompatTextView txtAllLanguages,
-      @NonNull AppCompatTextView txtSelectKeyboard) {
-    this.rootView = rootView;
+      @NonNull ConstraintLayout rootView, @NonNull ShimmerFrameLayout shimmerLayout,
+      @NonNull AppCompatTextView txtAllLanguages, @NonNull AppCompatTextView txtSelectKeyboard) {
+    this.rootView_ = rootView_;
     this.bannerAdMint = bannerAdMint;
     this.handAnimActive = handAnimActive;
     this.imvDone = imvDone;
     this.mainLayout = mainLayout;
     this.nativeAdContainerAd = nativeAdContainerAd;
     this.recyclerViewLanguage = recyclerViewLanguage;
+    this.rootView = rootView;
     this.shimmerLayout = shimmerLayout;
     this.txtAllLanguages = txtAllLanguages;
     this.txtSelectKeyboard = txtSelectKeyboard;
@@ -73,7 +77,7 @@ public final class LanguageScreenOneBinding implements ViewBinding {
   @Override
   @NonNull
   public ConstraintLayout getRoot() {
-    return rootView;
+    return rootView_;
   }
 
   @NonNull
@@ -133,6 +137,8 @@ public final class LanguageScreenOneBinding implements ViewBinding {
         break missingId;
       }
 
+      ConstraintLayout rootView_ = (ConstraintLayout) rootView;
+
       id = R.id.shimmerLayout;
       ShimmerFrameLayout shimmerLayout = ViewBindings.findChildViewById(rootView, id);
       if (shimmerLayout == null) {
@@ -152,7 +158,7 @@ public final class LanguageScreenOneBinding implements ViewBinding {
       }
 
       return new LanguageScreenOneBinding((ConstraintLayout) rootView, bannerAdMint, handAnimActive,
-          imvDone, mainLayout, nativeAdContainerAd, recyclerViewLanguage, shimmerLayout,
+          imvDone, mainLayout, nativeAdContainerAd, recyclerViewLanguage, rootView_, shimmerLayout,
           txtAllLanguages, txtSelectKeyboard);
     }
     String missingId = rootView.getResources().getResourceName(id);

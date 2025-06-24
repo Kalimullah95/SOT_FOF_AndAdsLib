@@ -1,7 +1,6 @@
 package com.manual.mediation.library.sotadlib.utils
 
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentFactory
 import com.manual.mediation.library.sotadlib.activities.WTFullScreenAdFragment
 import com.manual.mediation.library.sotadlib.activities.WTOneFragment

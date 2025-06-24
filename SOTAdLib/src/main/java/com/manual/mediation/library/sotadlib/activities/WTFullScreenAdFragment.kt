@@ -27,7 +27,6 @@ class WTFullScreenAdFragment : Fragment() {
     private lateinit var showCloseButtonRunnable: Runnable
 
     companion object {
-        private const val ARG_ITEM = "fullScreenAds"
 
         fun newInstance(tracker: CommonEventTracker? = null): WTFullScreenAdFragment {
             val fragment = WTFullScreenAdFragment()

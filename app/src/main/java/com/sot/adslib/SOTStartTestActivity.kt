@@ -440,19 +440,7 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
         editor.putBoolean(RemoteConfigConstTest.NATIVE_WALKTHROUGH_3, true)
         editor.putBoolean(RemoteConfigConstTest.INTERSTITIAL_LETS_START, true)
 
-        // SOT-Ads-Mediation-Config
-        editor.putString(RemoteConfigConstTest.RESUME_INTER_SPLASH_MED, "ADMOB")
-        editor.putString(RemoteConfigConstTest.RESUME_OVERALL_MED, "ADMOB")
-        editor.putString(RemoteConfigConstTest.BANNER_SPLASH_MED, "ADMOB")
-        editor.putString(RemoteConfigConstTest.NATIVE_LANGUAGE_1_MED, "ADMOB")
-        editor.putString(RemoteConfigConstTest.NATIVE_LANGUAGE_2_MED, "MINTEGRAL")
-        editor.putString(RemoteConfigConstTest.NATIVE_SURVEY_1_MED, "MINTEGRAL")
-        editor.putString(RemoteConfigConstTest.NATIVE_SURVEY_2_MED, "ADMOB")
-        editor.putString(RemoteConfigConstTest.NATIVE_WALKTHROUGH_1_MED, "ADMOB")
-        editor.putString(RemoteConfigConstTest.NATIVE_WALKTHROUGH_2_MED, "ADMOB")
-        editor.putString(RemoteConfigConstTest.NATIVE_WALKTHROUGH_FULLSCR_MED, "ADMOB")
-        editor.putString(RemoteConfigConstTest.NATIVE_WALKTHROUGH_3_MED, "ADMOB")
-        editor.putString(RemoteConfigConstTest.INTERSTITIAL_LETS_START_MED, "ADMOB")
+
 
         editor.putString(RemoteConfigConstTest.TIMER_NATIVE_F_SRC, "5")
 

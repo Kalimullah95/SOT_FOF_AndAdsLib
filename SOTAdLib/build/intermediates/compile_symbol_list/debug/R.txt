@@ -168,6 +168,8 @@ int id nav_w_t_one 0x0
 int id nav_w_t_three 0x0
 int id nav_w_t_two 0x0
 int id recyclerViewLanguage 0x0
+int id root 0x0
+int id root_view 0x0
 int id selectedBackground 0x0
 int id shimmerLayout 0x0
 int id shimmerLayoutF 0x0

@@ -2211,6 +2211,8 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color purpel
+color red
 color redLib
 color ripple_material_dark
 color ripple_material_light
@@ -2227,6 +2229,7 @@ color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow
 color yellowLib
 dimen _100sdp
 dimen _100ssp
@@ -4572,6 +4575,8 @@ id rightToLeft
 id right_icon
 id right_side
 id right_to_left
+id root
+id root_view
 id rounded
 id row_index_key
 id rtl
@@ -6591,5 +6596,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
-xml gma_ad_services_config
 xml image_share_filepaths

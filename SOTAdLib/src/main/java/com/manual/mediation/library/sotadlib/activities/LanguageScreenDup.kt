@@ -19,6 +19,7 @@ import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsManager
 import com.manual.mediation.library.sotadlib.utils.MyLocaleHelper
 import com.manual.mediation.library.sotadlib.utils.hideSystemUIUpdated
+import com.manual.mediation.library.sotadlib.utils.setStatusBarColor
 
 class LanguageScreenDup: AppCompatBaseActivity() {
 
@@ -29,7 +30,6 @@ class LanguageScreenDup: AppCompatBaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        overridePendingTransition(0, 0)
         supportActionBar?.hide()
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
         hideSystemUIUpdated()
@@ -59,6 +59,7 @@ class LanguageScreenDup: AppCompatBaseActivity() {
             config.theme?.let {
                 val rootView = findViewById<View>(R.id.root_view)
                 rootView.setBackgroundColor(it)
+                setStatusBarColor(it)
             }
             config.languageList?.let { languageList ->
                 config.selectedDrawable?.let { selectedDrawable ->

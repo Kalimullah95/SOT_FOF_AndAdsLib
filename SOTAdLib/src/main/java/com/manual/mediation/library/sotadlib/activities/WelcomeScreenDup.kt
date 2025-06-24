@@ -14,21 +14,23 @@ import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsManager
 import com.manual.mediation.library.sotadlib.callingClasses.WelcomeScreensConfiguration
 import com.manual.mediation.library.sotadlib.interfaces.WelcomeDupInterface
+import com.manual.mediation.library.sotadlib.objects.StatusBarColor.STATUS_BAR_COLOR
 import com.manual.mediation.library.sotadlib.utils.hideSystemUIUpdated
+import com.manual.mediation.library.sotadlib.utils.setStatusBarColor
 
 class WelcomeScreenDup: AppCompatBaseActivity(), WelcomeDupInterface {
 
-    var myView: View? = null
+    private var myView: View? = null
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        overridePendingTransition(0, 0)
         supportActionBar?.hide()
         hideSystemUIUpdated()
         onBackPressedDispatcher.addCallback(this) {
             /**Disable backPress until Home**/
         }
+        setStatusBarColor(STATUS_BAR_COLOR)
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
 
         WelcomeScreensConfiguration.welcomeInstance?.let { config ->

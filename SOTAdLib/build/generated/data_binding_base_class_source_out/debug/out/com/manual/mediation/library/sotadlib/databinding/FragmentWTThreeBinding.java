@@ -46,6 +46,9 @@ public final class FragmentWTThreeBinding implements ViewBinding {
   public final CardView nativeAdContainerAd;
 
   @NonNull
+  public final ConstraintLayout root;
+
+  @NonNull
   public final ShimmerFrameLayout shimmerLayout;
 
   @NonNull
@@ -57,8 +60,9 @@ public final class FragmentWTThreeBinding implements ViewBinding {
   private FragmentWTThreeBinding(@NonNull ConstraintLayout rootView,
       @NonNull FrameLayout bannerAdMint, @NonNull TextView btnNext, @NonNull ImageView bubble,
       @NonNull ConstraintLayout cl2, @NonNull Guideline glOne, @NonNull ImageView main,
-      @NonNull CardView nativeAdContainerAd, @NonNull ShimmerFrameLayout shimmerLayout,
-      @NonNull TextView txtDescription, @NonNull TextView txtHeading) {
+      @NonNull CardView nativeAdContainerAd, @NonNull ConstraintLayout root,
+      @NonNull ShimmerFrameLayout shimmerLayout, @NonNull TextView txtDescription,
+      @NonNull TextView txtHeading) {
     this.rootView = rootView;
     this.bannerAdMint = bannerAdMint;
     this.btnNext = btnNext;
@@ -67,6 +71,7 @@ public final class FragmentWTThreeBinding implements ViewBinding {
     this.glOne = glOne;
     this.main = main;
     this.nativeAdContainerAd = nativeAdContainerAd;
+    this.root = root;
     this.shimmerLayout = shimmerLayout;
     this.txtDescription = txtDescription;
     this.txtHeading = txtHeading;
@@ -141,6 +146,8 @@ public final class FragmentWTThreeBinding implements ViewBinding {
         break missingId;
       }
 
+      ConstraintLayout root = (ConstraintLayout) rootView;
+
       id = R.id.shimmerLayout;
       ShimmerFrameLayout shimmerLayout = ViewBindings.findChildViewById(rootView, id);
       if (shimmerLayout == null) {
@@ -160,7 +167,7 @@ public final class FragmentWTThreeBinding implements ViewBinding {
       }
 
       return new FragmentWTThreeBinding((ConstraintLayout) rootView, bannerAdMint, btnNext, bubble,
-          cl2, glOne, main, nativeAdContainerAd, shimmerLayout, txtDescription, txtHeading);
+          cl2, glOne, main, nativeAdContainerAd, root, shimmerLayout, txtDescription, txtHeading);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

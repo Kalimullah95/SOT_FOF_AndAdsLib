@@ -22,7 +22,7 @@ import java.lang.String;
 
 public final class FragmentWTOneBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final ConstraintLayout rootView_;
 
   @NonNull
   public final FrameLayout bannerAdMint;
@@ -46,6 +46,9 @@ public final class FragmentWTOneBinding implements ViewBinding {
   public final CardView nativeAdContainerAd;
 
   @NonNull
+  public final ConstraintLayout rootView;
+
+  @NonNull
   public final ShimmerFrameLayout shimmerLayout;
 
   @NonNull
@@ -54,12 +57,13 @@ public final class FragmentWTOneBinding implements ViewBinding {
   @NonNull
   public final TextView txtHeading;
 
-  private FragmentWTOneBinding(@NonNull ConstraintLayout rootView,
+  private FragmentWTOneBinding(@NonNull ConstraintLayout rootView_,
       @NonNull FrameLayout bannerAdMint, @NonNull TextView btnNext, @NonNull ImageView bubble,
       @NonNull ConstraintLayout cl2, @NonNull Guideline glOne, @NonNull ImageView main,
-      @NonNull CardView nativeAdContainerAd, @NonNull ShimmerFrameLayout shimmerLayout,
-      @NonNull TextView txtDescription, @NonNull TextView txtHeading) {
-    this.rootView = rootView;
+      @NonNull CardView nativeAdContainerAd, @NonNull ConstraintLayout rootView,
+      @NonNull ShimmerFrameLayout shimmerLayout, @NonNull TextView txtDescription,
+      @NonNull TextView txtHeading) {
+    this.rootView_ = rootView_;
     this.bannerAdMint = bannerAdMint;
     this.btnNext = btnNext;
     this.bubble = bubble;
@@ -67,6 +71,7 @@ public final class FragmentWTOneBinding implements ViewBinding {
     this.glOne = glOne;
     this.main = main;
     this.nativeAdContainerAd = nativeAdContainerAd;
+    this.rootView = rootView;
     this.shimmerLayout = shimmerLayout;
     this.txtDescription = txtDescription;
     this.txtHeading = txtHeading;
@@ -75,7 +80,7 @@ public final class FragmentWTOneBinding implements ViewBinding {
   @Override
   @NonNull
   public ConstraintLayout getRoot() {
-    return rootView;
+    return rootView_;
   }
 
   @NonNull
@@ -141,6 +146,8 @@ public final class FragmentWTOneBinding implements ViewBinding {
         break missingId;
       }
 
+      ConstraintLayout rootView_ = (ConstraintLayout) rootView;
+
       id = R.id.shimmerLayout;
       ShimmerFrameLayout shimmerLayout = ViewBindings.findChildViewById(rootView, id);
       if (shimmerLayout == null) {
@@ -160,7 +167,8 @@ public final class FragmentWTOneBinding implements ViewBinding {
       }
 
       return new FragmentWTOneBinding((ConstraintLayout) rootView, bannerAdMint, btnNext, bubble,
-          cl2, glOne, main, nativeAdContainerAd, shimmerLayout, txtDescription, txtHeading);
+          cl2, glOne, main, nativeAdContainerAd, rootView_, shimmerLayout, txtDescription,
+          txtHeading);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
