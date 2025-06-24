@@ -3,9 +3,12 @@ package com.manual.mediation.library.sotadlib.activities
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.TextView
 import androidx.activity.OnBackPressedCallback
+import androidx.activity.addCallback
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.cardview.widget.CardView
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.manual.mediation.library.sotadlib.R
@@ -31,12 +34,32 @@ class LanguageScreenDup: AppCompatBaseActivity() {
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
         hideSystemUIUpdated()
         setContentView(R.layout.language_screen_dup)
+        sotAdsConfigurations?.languageScreensConfiguration?.eventTracker?.logEvent(
+            this,
+            "sot_language_two_started"
+        )
         Log.i("SOTStartTestActivity", "language2_scr")
         imvDone = findViewById(R.id.imvDone)
         recyclerView = findViewById(R.id.recyclerViewLanguage)
         recyclerView.layoutManager = LinearLayoutManager(this)
+        onBackPressedDispatcher.addCallback(this) {
+            /**Disable backPress until Home**/
+        }
 
         LanguageScreensConfiguration.languageInstance?.let { config ->
+            Log.d("fontColor", "config.tow:${config.fontColor} ")
+            config.fontColor?.let {
+                findViewById<TextView>(R.id.txtSelectKeyboard).setTextColor(it)
+                findViewById<TextView>(R.id.txtAllLanguages).setTextColor(it)
+               //
+            }
+            config.tickSelector?.let {
+                findViewById<AppCompatImageView>(R.id.imvDone).setBackgroundDrawable(it)
+            }
+            config.theme?.let {
+                val rootView = findViewById<View>(R.id.root_view)
+                rootView.setBackgroundColor(it)
+            }
             config.languageList?.let { languageList ->
                 config.selectedDrawable?.let { selectedDrawable ->
                     config.unSelectedDrawable?.let { unSelectedDrawable ->
@@ -48,14 +71,14 @@ class LanguageScreenDup: AppCompatBaseActivity() {
                                     selectedDrawable = selectedDrawable,
                                     unSelectedDrawable = unSelectedDrawable,
                                     selectedRadio = selectedRadio,
-                                    unSelectedRadio = unSelectedRadio
-                                ) {
-                                        position ->
-                                    // Handle selection changes
-                                    val language = languageList[position]
-                                    MyLocaleHelper.setLocale(this, language.code)
-                                    //recreate()
-                                }
+                                    unSelectedRadio = unSelectedRadio, onItemClickListener = {
+                                            position ->
+                                        val language = languageList[position]
+                                        MyLocaleHelper.setLocale(this, language.code)
+
+                                    }
+                                    , fontColor = config.fontColor!!
+                                )
                                 recyclerView.adapter = languageAdapter
                             }
                         }

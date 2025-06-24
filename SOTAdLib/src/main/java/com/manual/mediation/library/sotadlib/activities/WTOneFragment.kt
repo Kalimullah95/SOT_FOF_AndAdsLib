@@ -19,6 +19,7 @@ import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsManager
 import com.manual.mediation.library.sotadlib.data.WalkThroughItem
 import com.manual.mediation.library.sotadlib.databinding.FragmentWTOneBinding
+import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
 
 import com.manual.mediation.library.sotadlib.utils.NetworkCheck
 import kotlinx.coroutines.Dispatchers
@@ -28,17 +29,18 @@ import kotlinx.coroutines.withContext
 class WTOneFragment : Fragment() {
     lateinit var binding: FragmentWTOneBinding
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
-
+    private var eventTracker: CommonEventTracker? = null
     // Add a companion object with newInstance method
     companion object {
         private const val ARG_ITEM = "walkThroughItem"
 
-        fun newInstance(item: WalkThroughItem): WTOneFragment {
+        fun newInstance(item: WalkThroughItem, tracker: CommonEventTracker? = null): WTOneFragment {
             val fragment = WTOneFragment()
             val args = Bundle().apply {
                 putParcelable(ARG_ITEM, item)
             }
             fragment.arguments = args
+            fragment.eventTracker = tracker
             return fragment
         }
     }
@@ -53,6 +55,10 @@ class WTOneFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = FragmentWTOneBinding.inflate(inflater, container,false)
+        eventTracker?.logEvent(
+            requireContext(),
+            "walk_through_one_"
+        )
         return binding.root
     }
 
@@ -96,9 +102,10 @@ class WTOneFragment : Fragment() {
             }
         }
 
-        binding.txtHeading.setTextColor(ContextCompat.getColor(requireActivity(), item.headingColor))
-        binding.txtDescription.setTextColor(ContextCompat.getColor(requireActivity(), item.descriptionColor))
-        binding.btnNext.setTextColor(ContextCompat.getColor(requireActivity(), item.nextColor))
+        binding.txtHeading.setTextColor( item.headingColor)
+        binding.txtDescription.setTextColor( item.descriptionColor)
+        binding.btnNext.setTextColor( item.nextColor)
+        binding.rootView.rootView.setBackgroundColor(item.viewBackgroundColor)
 
         binding.txtHeading.text = item.heading
         binding.txtDescription.text = item.description

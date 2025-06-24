@@ -2,56 +2,96 @@ package com.manual.mediation.library.sotadlib.activities
 
 import android.os.Bundle
 import android.util.Log
+import androidx.activity.addCallback
 import androidx.viewpager2.widget.ViewPager2
 import com.manual.mediation.library.sotadlib.R
 import com.manual.mediation.library.sotadlib.adapters.WalkThroughAdapter
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsManager
 import com.manual.mediation.library.sotadlib.databinding.ActivityWalkThroughConfigBinding
+import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
+import com.manual.mediation.library.sotadlib.utils.FirebaseCommonTracker
 import com.manual.mediation.library.sotadlib.utils.NetworkCheck
 import com.manual.mediation.library.sotadlib.utils.hideSystemUIUpdated
 
 class WalkThroughConfigActivity : AppCompatBaseActivity() {
 
-    lateinit var binding: ActivityWalkThroughConfigBinding
+    private lateinit var binding: ActivityWalkThroughConfigBinding
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
     private lateinit var viewPager: ViewPager2
     private var previousPosition: Int = -1
+    private var eventTracker: CommonEventTracker? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         overridePendingTransition(0, 0)
         supportActionBar?.hide()
-//        hideSystemUIUpdated()
-        binding = ActivityWalkThroughConfigBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-        sotAdsConfigurations = SOTAdsManager.getConfigurations()
-        viewPager = findViewById(R.id.viewPager)
+        hideSystemUIUpdated()
 
-        val myNoOfFrag = sotAdsConfigurations?.getRemoteConfigData()?.get("NATIVE_WALKTHROUGH_FULLSCR")
-        val noOfFragment = if (NetworkCheck.isNetworkAvailable(this) && myNoOfFrag == true) {
-            4
-        } else {
-            3
+        // Disable back press
+        onBackPressedDispatcher.addCallback(this) {
+            // Back press disabled
+            Log.d("BackPress", "Back press disabled in walkthrough")
         }
 
-        viewPager.adapter = WalkThroughAdapter(fragmentActivity = this, sotAdsConfigurations?.walkThroughScreensConfiguration?.walkThroughList!!, noOfFragment)
+        // Inflate view
+        binding = ActivityWalkThroughConfigBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
+        // Config & tracker
+        sotAdsConfigurations = SOTAdsManager.getConfigurations()
+        eventTracker = sotAdsConfigurations?.walkThroughScreensConfiguration?.eventTracker
+        eventTracker?.logEvent(this, "sot_fof_started")
+
+        // Setup view pager after layout pass to avoid ANR
+        binding.viewPager.post {
+            val myNoOfFrag = sotAdsConfigurations?.getRemoteConfigData()?.get("NATIVE_WALKTHROUGH_FULLSCR")
+            val noOfFragment = if (NetworkCheck.isNetworkAvailable(this) && myNoOfFrag == true) {
+                4
+            } else {
+                3
+            }
+
+            val walkthroughList = sotAdsConfigurations
+                ?.walkThroughScreensConfiguration
+                ?.walkThroughList
+
+            if (walkthroughList != null) {
+                binding.viewPager.adapter = WalkThroughAdapter(
+                    fragmentActivity = this,
+                    walkthroughList,
+                    noOfFragment,
+                    eventTracker
+                )
+            }
+
+            setupPageChangeListener()
+        }
+    }
+
+    private fun setupPageChangeListener() {
+        viewPager = binding.viewPager
         viewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
             override fun onPageSelected(position: Int) {
                 super.onPageSelected(position)
                 if (previousPosition != -1) {
                     when (previousPosition) {
                         0 -> if (position == 1) {
-                            Log.i("WalkThroughConfigActivity","previousPosition: $previousPosition :: $position")
+                            eventTracker?.logEvent(
+                                this@WalkThroughConfigActivity,
+                                "walk_through_one_"
+                            )
+                            Log.i("WalkThrough", "0 → 1")
                         }
-                        1 -> if (position == 2) {
-                            Log.i("WalkThroughConfigActivity","previousPosition: $previousPosition :: $position")
-                        } else if (position == 0) {
-                            Log.i("WalkThroughConfigActivity","previousPosition: $previousPosition :: $position")
+                        1 -> {
+                            if (position == 2) {
+                                Log.i("WalkThrough", "1 → 2")
+                            } else if (position == 0) {
+                                Log.i("WalkThrough", "1 → 0")
+                            }
                         }
                         2 -> if (position == 1) {
-                            Log.i("WalkThroughConfigActivity","previousPosition: $previousPosition :: $position")
+                            Log.i("WalkThrough", "2 → 1")
                         }
                     }
                 }
@@ -59,11 +99,6 @@ class WalkThroughConfigActivity : AppCompatBaseActivity() {
             }
         })
     }
-
-    /*override fun onResume() {
-        super.onResume()
-        hideSystemUIUpdated()
-    }*/
 
     override fun onWindowFocusChanged(hasFocus: Boolean) {
         super.onWindowFocusChanged(hasFocus)

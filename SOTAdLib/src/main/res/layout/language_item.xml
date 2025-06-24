@@ -29,7 +29,6 @@
         android:layout_marginStart="@dimen/_5ssp"
         android:layout_marginEnd="@dimen/_5ssp"
         android:text="@string/label_country_name"
-        android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
         android:fontFamily="@font/lexend_semibold"
@@ -48,9 +47,9 @@
         android:layout_height="@dimen/_30sdp"
         android:contentDescription="@string/des_country_flag"
         android:src="@drawable/portugal"
+        android:layout_marginEnd="@dimen/_20sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Remove the divider view completely as it's causing layout issues -->
 </androidx.constraintlayout.widget.ConstraintLayout>

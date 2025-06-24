@@ -11,5 +11,6 @@ data class WalkThroughItem(
     val descriptionColor: Int,
     val nextColor: Int,
     val drawableResId: Int,
-    val drawableBubbleResId: Int
+    val drawableBubbleResId: Int,
+    val viewBackgroundColor:Int
 ) : Parcelable

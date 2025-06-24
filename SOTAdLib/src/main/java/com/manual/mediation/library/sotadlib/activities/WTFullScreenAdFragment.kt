@@ -13,16 +13,28 @@ import com.manual.mediation.library.sotadlib.R
 import com.manual.mediation.library.sotadlib.adMobAdClasses.AdmobNativeAdFullScreen
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsManager
+import com.manual.mediation.library.sotadlib.data.WalkThroughItem
 import com.manual.mediation.library.sotadlib.databinding.FragmentWalkThroughFullScreenAdmobBinding
+import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
 
 
 class WTFullScreenAdFragment : Fragment() {
 
     private lateinit var binding: FragmentWalkThroughFullScreenAdmobBinding
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
-
+    private var eventTracker: CommonEventTracker? = null
     private var handler: Handler? = null
     private lateinit var showCloseButtonRunnable: Runnable
+
+    companion object {
+        private const val ARG_ITEM = "fullScreenAds"
+
+        fun newInstance(tracker: CommonEventTracker? = null): WTFullScreenAdFragment {
+            val fragment = WTFullScreenAdFragment()
+            fragment.eventTracker = tracker
+            return fragment
+        }
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -36,6 +48,10 @@ class WTFullScreenAdFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
+        eventTracker?.logEvent(
+            requireContext(),
+            "WTFullScreenAdFragment"
+        )
         Log.i("SOTStartTestActivity", "walkthrough_fullscr")
         showCloseButtonRunnable = Runnable {
             binding.ivClose.visibility = View.VISIBLE

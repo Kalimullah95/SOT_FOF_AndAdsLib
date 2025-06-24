@@ -3,10 +3,13 @@ package com.manual.mediation.library.sotadlib.callingClasses
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
+import android.graphics.Color
 import android.graphics.drawable.Drawable
 import android.util.Log
+import com.airbnb.lottie.model.Font
 import com.manual.mediation.library.sotadlib.activities.LanguageScreenOne
 import com.manual.mediation.library.sotadlib.data.Language
+import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
 import com.manual.mediation.library.sotadlib.interfaces.LanguageInterface
 
 class LanguageScreensConfiguration private constructor() {
@@ -14,12 +17,17 @@ class LanguageScreensConfiguration private constructor() {
     private lateinit var activityContext: Activity
     private var languageInterface: LanguageInterface? = null
     var languageList: ArrayList<Language>? = null
-
+    var eventTracker: CommonEventTracker? = null
     var selectedDrawable: Drawable? = null
     var unSelectedDrawable: Drawable? = null
 
     var selectedRadio: Drawable? = null
+    var tickSelector: Drawable? = null
     var unSelectedRadio: Drawable? = null
+
+     var theme: Int? = null
+     var fontColor:Int? = null
+     var headingColor:Int? = null
 
     companion object {
         @SuppressLint("StaticFieldLeak")
@@ -44,22 +52,29 @@ class LanguageScreensConfiguration private constructor() {
     class Builder {
         private lateinit var activity: Activity
         private var languageList: ArrayList<Language>? = null
-
         private var selectedDrawable: Drawable? = null
         private var unSelectedDrawable: Drawable? = null
         private var selectedRadio: Drawable? = null
+        private var tickSelector: Drawable? = null
         private var unSelectedRadio: Drawable? = null
+        private var theme: Int? = null
+        private var fontColor:Int? = null
+        private var headingColor:Int? = null
+        private var eventTracker: CommonEventTracker? = null
 
         fun setActivityContext(myActivity: Activity) = apply {
             this.activity = myActivity
         }
-
-        fun setDrawableColors(selectedDrawable: Drawable, unSelectedDrawable: Drawable, selectedRadio: Drawable, unSelectedRadio: Drawable) = apply {
+        fun setEventTracker(tracker: CommonEventTracker) = apply { this.eventTracker = tracker }
+        fun setDrawableColors(selectedDrawable: Drawable, unSelectedDrawable: Drawable, selectedRadio: Drawable, unSelectedRadio: Drawable,tickSelector:Drawable,themeColor:Int,font: Int,headingColor:Int) = apply {
             this.selectedDrawable = selectedDrawable
             this.unSelectedDrawable = unSelectedDrawable
-
             this.selectedRadio = selectedRadio
             this.unSelectedRadio = unSelectedRadio
+            this.tickSelector = tickSelector
+            this.fontColor = font
+            this.theme = themeColor
+            this.headingColor = headingColor
         }
 
         fun setLanguages(languageList: ArrayList<Language>) = apply {
@@ -78,6 +93,9 @@ class LanguageScreensConfiguration private constructor() {
             languageScreensConfiguration.unSelectedDrawable = unSelectedDrawable!!
             languageScreensConfiguration.selectedRadio = selectedRadio!!
             languageScreensConfiguration.unSelectedRadio = unSelectedRadio!!
+            languageScreensConfiguration.theme = theme!!
+            languageScreensConfiguration.fontColor = fontColor!!
+            languageScreensConfiguration.eventTracker = eventTracker
             languageInstance = languageScreensConfiguration
             return languageScreensConfiguration
         }

@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
+import androidx.activity.addCallback
 import androidx.cardview.widget.CardView
 import com.facebook.shimmer.ShimmerFrameLayout
 import com.manual.mediation.library.sotadlib.R
@@ -25,6 +26,9 @@ class WelcomeScreenDup: AppCompatBaseActivity(), WelcomeDupInterface {
         overridePendingTransition(0, 0)
         supportActionBar?.hide()
         hideSystemUIUpdated()
+        onBackPressedDispatcher.addCallback(this) {
+            /**Disable backPress until Home**/
+        }
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
 
         WelcomeScreensConfiguration.welcomeInstance?.let { config ->

@@ -1,6 +1,7 @@
 package com.manual.mediation.library.sotadlib.adapters
 
 import android.content.Context
+import android.graphics.Color
 import android.graphics.drawable.Drawable
 import android.util.Log
 import android.view.LayoutInflater
@@ -14,6 +15,7 @@ import com.manual.mediation.library.sotadlib.R
 import com.manual.mediation.library.sotadlib.data.Language
 import com.manual.mediation.library.sotadlib.utils.MyLocaleHelper
 import com.manual.mediation.library.sotadlib.utils.PrefHelper
+import kotlin.math.log
 
 class LanguageAdapter(
     private var ctx: Context,
@@ -22,7 +24,10 @@ class LanguageAdapter(
     private val unSelectedDrawable: Drawable,
     private val selectedRadio: Drawable,
     private val unSelectedRadio: Drawable,
-    private val onItemClickListener: (position: Int) -> Unit)
+    private val onItemClickListener: (position: Int) -> Unit,
+    private val fontColor: Int = Color.BLACK
+    )
+
     : RecyclerView.Adapter<LanguageAdapter.LanguageViewHolder>() {
 
     private var selectedItem = RecyclerView.NO_POSITION
@@ -37,6 +42,7 @@ class LanguageAdapter(
     override fun onBindViewHolder(holder: LanguageViewHolder, position: Int) {
         val language = languages[position]
         holder.flagImageView.setImageResource(language.imageId)
+        holder.languageTextView.setTextColor(fontColor)
         holder.languageTextView.text = ctx.getString(language.nameResId)
         Log.d("languageTextView", "onBindViewHolder:${ctx.getString(language.nameResId)} ")
 

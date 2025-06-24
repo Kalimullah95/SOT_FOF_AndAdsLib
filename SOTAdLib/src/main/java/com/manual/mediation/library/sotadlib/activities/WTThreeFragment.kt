@@ -10,12 +10,14 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.manual.mediation.library.sotadlib.activities.WTTwoFragment.Companion
 import com.manual.mediation.library.sotadlib.adMobAdClasses.AdMobInterstitialInside
 import com.manual.mediation.library.sotadlib.adMobAdClasses.AdmobNativeAdManager
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsManager
 import com.manual.mediation.library.sotadlib.data.WalkThroughItem
 import com.manual.mediation.library.sotadlib.databinding.FragmentWTThreeBinding
+import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
 import com.manual.mediation.library.sotadlib.utils.NetworkCheck
 import com.manual.mediation.library.sotadlib.utils.PrefHelper
 import kotlinx.coroutines.Dispatchers
@@ -27,18 +29,22 @@ class WTThreeFragment : Fragment() {
     private lateinit var binding: FragmentWTThreeBinding
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
     private lateinit var item: WalkThroughItem
-
+    private var eventTracker: CommonEventTracker? = null
     companion object {
         private const val ARG_ITEM = "walkThroughItem"
 
-        fun newInstance(item: WalkThroughItem): WTThreeFragment {
-            return WTThreeFragment().apply {
-                arguments = Bundle().apply {
-                    putParcelable(ARG_ITEM, item)
-                }
+        fun newInstance(item: WalkThroughItem,tracker: CommonEventTracker? = null): WTThreeFragment {
+            val fragment = WTThreeFragment()
+            val args = Bundle().apply {
+                putParcelable(ARG_ITEM, item)
             }
+            fragment.arguments = args
+            fragment.eventTracker = tracker
+            return fragment
         }
-    }
+            }
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -49,6 +55,10 @@ class WTThreeFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = FragmentWTThreeBinding.inflate(inflater, container, false)
+        eventTracker?.logEvent(
+            requireContext(),
+            "walk_through_three_"
+        )
         return binding.root
     }
 
@@ -84,10 +94,10 @@ class WTThreeFragment : Fragment() {
 
 
         context?.let {
-            binding.txtHeading.setTextColor(ContextCompat.getColor(it, item.headingColor))
-            binding.txtDescription.setTextColor(ContextCompat.getColor(it, item.descriptionColor))
-            binding.btnNext.setTextColor(ContextCompat.getColor(it, item.nextColor))
-
+            binding.txtHeading.setTextColor(item.headingColor)
+            binding.txtDescription.setTextColor( item.descriptionColor)
+            binding.btnNext.setTextColor(item.nextColor)
+            binding.root.setBackgroundColor(item.viewBackgroundColor)
         }
 
 

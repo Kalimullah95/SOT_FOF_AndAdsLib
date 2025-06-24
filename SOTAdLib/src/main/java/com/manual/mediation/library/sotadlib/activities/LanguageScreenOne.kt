@@ -5,7 +5,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.TextView
+import androidx.activity.addCallback
 import androidx.cardview.widget.CardView
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.manual.mediation.library.sotadlib.R
@@ -26,11 +29,17 @@ class LanguageScreenOne : AppCompatBaseActivity(), LanguageInterface {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
+        sotAdsConfigurations?.languageScreensConfiguration?.eventTracker?.logEvent(
+            this,
+            "sot_language_0ne_started"
+        )
         supportActionBar?.hide()
         hideSystemUIUpdated()
         setContentView(R.layout.language_screen_one)
         Log.i("SOTStartTestActivity", "language1_scr")
-
+        onBackPressedDispatcher.addCallback(this) {
+            /**Disable backPress until Home**/
+        }
         recyclerView = findViewById(R.id.recyclerViewLanguage)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
@@ -38,7 +47,16 @@ class LanguageScreenOne : AppCompatBaseActivity(), LanguageInterface {
 
         LanguageScreensConfiguration.languageInstance?.let { config ->
             config.setLanguageInterface(this)
-
+            Log.d("fontColor", "config.fontColor:${config.headingColor} ")
+            config.fontColor?.let {
+                findViewById<TextView>(R.id.txtSelectKeyboard).setTextColor(it)
+                findViewById<TextView>(R.id.txtAllLanguages).setTextColor(it)
+            }
+            config.theme?.let {
+                Log.d("fontColor", "theme: ${Integer.toHexString(it)}")
+                val rootView = findViewById<View>(R.id.root_view)
+                rootView.setBackgroundColor(it)
+            }
             config.languageList?.let {
                 if (config.selectedDrawable != null && config.unSelectedDrawable != null) {
                     if (config.selectedRadio != null && config.unSelectedRadio != null) {
@@ -48,9 +66,11 @@ class LanguageScreenOne : AppCompatBaseActivity(), LanguageInterface {
                             selectedDrawable = config.selectedDrawable!!,
                             unSelectedDrawable = config.unSelectedDrawable!!,
                             selectedRadio = config.selectedRadio!!,
-                            unSelectedRadio = config.unSelectedRadio!!) {
-                            config.showLanguageTwoScreen()
-                        }
+                            unSelectedRadio = config.unSelectedRadio!!, onItemClickListener = {
+                                config.showLanguageTwoScreen()
+                            }, fontColor = config.fontColor!!)
+
+
                         recyclerView.adapter = languageAdapter
                     }
                 }

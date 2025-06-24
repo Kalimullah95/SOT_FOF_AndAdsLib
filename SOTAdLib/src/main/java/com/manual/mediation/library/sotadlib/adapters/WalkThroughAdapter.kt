@@ -8,6 +8,7 @@ import com.manual.mediation.library.sotadlib.activities.WTOneFragment
 import com.manual.mediation.library.sotadlib.activities.WTThreeFragment
 import com.manual.mediation.library.sotadlib.activities.WTTwoFragment
 import com.manual.mediation.library.sotadlib.data.WalkThroughItem
+import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
 import com.manual.mediation.library.sotadlib.utils.WalkThroughFragmentFactory
 
 
@@ -15,12 +16,13 @@ import com.manual.mediation.library.sotadlib.utils.WalkThroughFragmentFactory
 class WalkThroughAdapter(
     private val fragmentActivity: FragmentActivity,
     private val walkThroughItems: ArrayList<WalkThroughItem>,
-    private val noOfFragments: Int
+    private val noOfFragments: Int,
+    private val eventTracker: CommonEventTracker? = null
 ) : FragmentStateAdapter(fragmentActivity) {
 
     init {
         fragmentActivity.supportFragmentManager.fragmentFactory =
-            WalkThroughFragmentFactory(walkThroughItems)
+            WalkThroughFragmentFactory(walkThroughItems,eventTracker)
     }
 
     override fun getItemCount(): Int = noOfFragments

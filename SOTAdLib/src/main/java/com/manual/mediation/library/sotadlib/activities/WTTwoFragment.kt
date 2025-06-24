@@ -12,11 +12,13 @@ import androidx.viewpager2.widget.ViewPager2
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.manual.mediation.library.sotadlib.R
+import com.manual.mediation.library.sotadlib.activities.WTOneFragment.Companion
 import com.manual.mediation.library.sotadlib.adMobAdClasses.AdmobNativeAdManager
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsManager
 import com.manual.mediation.library.sotadlib.data.WalkThroughItem
 import com.manual.mediation.library.sotadlib.databinding.FragmentWTTwoBinding
+import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
 
 import com.manual.mediation.library.sotadlib.utils.NetworkCheck
 import kotlinx.coroutines.Dispatchers
@@ -27,18 +29,22 @@ class WTTwoFragment : Fragment() {
     private lateinit var binding: FragmentWTTwoBinding
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
     private lateinit var item: WalkThroughItem
-
+    private var eventTracker: CommonEventTracker? = null
     companion object {
         private const val ARG_ITEM = "walkThroughItem"
 
-        fun newInstance(item: WalkThroughItem): WTTwoFragment {
-            return WTTwoFragment().apply {
-                arguments = Bundle().apply {
+        fun newInstance(item: WalkThroughItem,tracker: CommonEventTracker? = null): WTTwoFragment {
+            val fragment = WTTwoFragment()
+
+                val args = Bundle().apply {
                     putParcelable(ARG_ITEM, item)
                 }
+                fragment.arguments = args
+                fragment.eventTracker = tracker
+                return fragment
             }
         }
-    }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,6 +54,10 @@ class WTTwoFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = FragmentWTTwoBinding.inflate(inflater, container, false)
+        eventTracker?.logEvent(
+            requireContext(),
+            "walk_through_two_"
+        )
         return binding.root
     }
 
@@ -76,12 +86,13 @@ class WTTwoFragment : Fragment() {
             }
         }
 
-        binding.txtHeading.setTextColor(ContextCompat.getColor(requireActivity(), item.headingColor))
-        binding.txtDescription.setTextColor(ContextCompat.getColor(requireActivity(), item.descriptionColor))
-        binding.btnNext.setTextColor(ContextCompat.getColor(requireActivity(), item.nextColor))
+        binding.txtHeading.setTextColor( item.headingColor)
+        binding.txtDescription.setTextColor( item.descriptionColor)
+        binding.btnNext.setTextColor( item.nextColor)
 
         binding.txtHeading.text = item.heading
         binding.txtDescription.text = item.description
+        binding.root.setBackgroundColor(item.viewBackgroundColor)
 
         if (!NetworkCheck.isNetworkAvailable(context)) {
             binding.glOne.setGuidelinePercent(0.8f)

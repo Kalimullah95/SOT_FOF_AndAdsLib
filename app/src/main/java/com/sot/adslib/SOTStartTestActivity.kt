@@ -14,6 +14,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.appcompat.widget.AppCompatTextView
+import androidx.core.content.ContextCompat
 import com.manual.mediation.library.sotadlib.activities.AppCompatBaseActivity
 import com.manual.mediation.library.sotadlib.adMobAdClasses.AdMobBannerAdSplash
 import com.manual.mediation.library.sotadlib.callingClasses.LanguageScreensConfiguration
@@ -23,6 +24,7 @@ import com.manual.mediation.library.sotadlib.callingClasses.WalkThroughScreensCo
 import com.manual.mediation.library.sotadlib.callingClasses.WelcomeScreensConfiguration
 import com.manual.mediation.library.sotadlib.data.Language
 import com.manual.mediation.library.sotadlib.data.WalkThroughItem
+import com.manual.mediation.library.sotadlib.utils.FirebaseCommonTracker
 import com.manual.mediation.library.sotadlib.utils.MyLocaleHelper
 import com.manual.mediation.library.sotadlib.utils.NetworkCheck
 import com.manual.mediation.library.sotadlib.utils.PrefHelper
@@ -135,8 +137,16 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 unSelectedRadio = AppCompatResources.getDrawable(
                     this,
                     com.manual.mediation.library.sotadlib.R.drawable.ic_radio_button_unchecked
-                )!!
+                )!!,
+                tickSelector = AppCompatResources.getDrawable(
+                    this,
+                    com.manual.mediation.library.sotadlib.R.drawable.ic_done
+                )!!,
+                themeColor = ContextCompat.getColor(this, R.color.red),
+                font = ContextCompat.getColor(this, R.color.yellow),
+                headingColor = ContextCompat.getColor(this, R.color.yellow),
             )
+            .setEventTracker(FirebaseCommonTracker())
             .setLanguages(
                 arrayListOf(
                     Language.Urdu,
@@ -153,6 +163,7 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
         val walkThroughScreensConfiguration = WalkThroughScreensConfiguration.Builder()
             .setActivityContext(this)
             .setWalkThroughContent(getWalkThroughList(this))
+            .setEventTracker(FirebaseCommonTracker())
             .build()
 
         sotAdsConfigurations = SOTAdsConfigurations.Builder()
@@ -376,7 +387,8 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 descriptionColor = com.manual.mediation.library.sotadlib.R.color.yellowLib,
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
                 drawableResId = com.manual.mediation.library.sotadlib.R.drawable.pakistan,
-                drawableBubbleResId = R.drawable.ic_launcher_foreground
+                drawableBubbleResId = R.drawable.ic_launcher_foreground,
+                viewBackgroundColor = ContextCompat.getColor(this, R.color.red)
             ),
             WalkThroughItem(
                 heading = "Screen 2",
@@ -385,7 +397,8 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 descriptionColor = com.manual.mediation.library.sotadlib.R.color.yellowLib,
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
                 drawableResId = com.manual.mediation.library.sotadlib.R.drawable.pakistan,
-                drawableBubbleResId = R.drawable.ic_launcher_foreground
+                drawableBubbleResId = R.drawable.ic_launcher_foreground,
+                viewBackgroundColor = ContextCompat.getColor(this, R.color.red)
             ),
             WalkThroughItem(
                 heading = "Screen 3",
@@ -394,7 +407,8 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 descriptionColor = com.manual.mediation.library.sotadlib.R.color.yellowLib,
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
                 drawableResId = com.manual.mediation.library.sotadlib.R.drawable.pakistan,
-                drawableBubbleResId = R.drawable.ic_launcher_foreground
+                drawableBubbleResId = R.drawable.ic_launcher_foreground,
+                viewBackgroundColor = ContextCompat.getColor(this, R.color.red)
             )
         )
     }
@@ -471,30 +485,6 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
             this["INTERSTITIAL_LETS_START"] =
                 prefs.getBoolean(RemoteConfigConstTest.INTERSTITIAL_LETS_START, false)
 
-            this["RESUME_INTER_SPLASH_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.RESUME_INTER_SPLASH_MED, "Empty")}"
-            this["RESUME_OVERALL_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.RESUME_OVERALL_MED, "Empty")}"
-            this["BANNER_SPLASH_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.BANNER_SPLASH_MED, "Empty")}"
-            this["NATIVE_LANGUAGE_1_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.NATIVE_LANGUAGE_1_MED, "Empty")}"
-            this["NATIVE_LANGUAGE_2_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.NATIVE_LANGUAGE_2_MED, "Empty")}"
-            this["NATIVE_SURVEY_1_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.NATIVE_SURVEY_1_MED, "Empty")}"
-            this["NATIVE_SURVEY_2_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.NATIVE_SURVEY_2_MED, "Empty")}"
-            this["NATIVE_WALKTHROUGH_1_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.NATIVE_WALKTHROUGH_1_MED, "Empty")}"
-            this["NATIVE_WALKTHROUGH_2_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.NATIVE_WALKTHROUGH_2_MED, "Empty")}"
-            this["NATIVE_WALKTHROUGH_FULLSCR_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.NATIVE_WALKTHROUGH_FULLSCR_MED, "Empty")}"
-            this["NATIVE_WALKTHROUGH_3_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.NATIVE_WALKTHROUGH_3_MED, "Empty")}"
-            this["INTERSTITIAL_LETS_START_MED"] =
-                "${prefs.getString(RemoteConfigConstTest.INTERSTITIAL_LETS_START_MED, "Empty")}"
 
             this["TIMER_NATIVE_F_SRC"] =
                 "${prefs.getString(RemoteConfigConstTest.TIMER_NATIVE_F_SRC, "Empty")}"
