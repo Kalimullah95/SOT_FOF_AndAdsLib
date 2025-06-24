@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.sot.adslib.app-mergeDebugResources-63:/values-v25/values-v25.xml",
+            "outputFile": "com.sot.adslib.app-mergeDebugResources-62:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\RYZEN\\.gradle\\caches\\transforms-3\\3fe3a6fe68e143c08a7bf3c7806da947\\transformed\\appcompat-1.7.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\RYZEN\\.gradle\\caches\\transforms-3\\2ad3eb58d5dc13c7e4f1c7034f49e5ad\\transformed\\appcompat-1.7.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

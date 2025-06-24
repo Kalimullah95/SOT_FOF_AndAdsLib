@@ -1,14 +1,13 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    alias(libs.plugins.com.google.gms.google.services)
     id("kotlin-parcelize")
     id("maven-publish")
 }
 
 android {
     namespace 'com.manual.mediation.library.sotadlib'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         minSdk 23

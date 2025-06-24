@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.sot.adslib.app-mergeDebugResources-63:/values-v24/values-v24.xml",
+            "outputFile": "com.sot.adslib.app-mergeDebugResources-62:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\RYZEN\\.gradle\\caches\\transforms-3\\3fe3a6fe68e143c08a7bf3c7806da947\\transformed\\appcompat-1.7.1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\RYZEN\\.gradle\\caches\\transforms-3\\2ad3eb58d5dc13c7e4f1c7034f49e5ad\\transformed\\appcompat-1.7.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\RYZEN\\.gradle\\caches\\transforms-3\\d2d0304594e8526726ac32d6c50464cf\\transformed\\material-1.12.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\RYZEN\\.gradle\\caches\\transforms-3\\66679a5f942384f6afbfd00049741bb4\\transformed\\material-1.12.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
