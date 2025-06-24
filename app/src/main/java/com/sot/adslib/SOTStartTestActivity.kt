@@ -439,9 +439,6 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
         editor.putBoolean(RemoteConfigConstTest.NATIVE_WALKTHROUGH_FULLSCR, true)
         editor.putBoolean(RemoteConfigConstTest.NATIVE_WALKTHROUGH_3, true)
         editor.putBoolean(RemoteConfigConstTest.INTERSTITIAL_LETS_START, true)
-
-
-
         editor.putString(RemoteConfigConstTest.TIMER_NATIVE_F_SRC, "5")
 
         editor.apply()

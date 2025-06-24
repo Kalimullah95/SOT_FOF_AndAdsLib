@@ -6,7 +6,6 @@
 -keep class com.facebook.infer.annotation.** { *; }
 -dontwarn com.facebook.infer.annotation.**
 
--keep public class com.mbridge.* extends androidx.** { *; }
 -keep public class androidx.viewpager.widget.PagerAdapter{*;}
 #-keep public class androidx.viewpager.widget.ViewPager.OnPageChangeListener{*;}
 -keep interface androidx.annotation.IntDef{*;}
@@ -18,8 +17,6 @@
 -keep public class androidx.core.app.NotificationCompat{*;}
 -keep public class androidx.appcompat.widget.AppCompatImageView {*;}
 -keep public class androidx.recyclerview.*{*;}
--keep class com.mbridge.msdk.foundation.tools.FastKV{*;}
--keep class com.mbridge.msdk.foundation.tools.FastKV$Builder{*;}
 
 -keep class com.manual.mediation.library.sotadlib.activities.AppCompatBaseActivity.** { *; }
 -keep class com.manual.mediation.library.sotadlib.activities.LanguageScreenOne.** { *; }
@@ -53,9 +50,6 @@
 -keep interface com.manual.mediation.library.sotadlib.interfaces.WelcomeInterface.** { *; }
 -keep interface com.manual.mediation.library.sotadlib.interfaces.OnNextButtonClickListener.** { *; }
 
--keep class com.manual.mediation.library.sotadlib.metaAdClasses.MetaBannerAdSplash.** { *; }
--keep class com.manual.mediation.library.sotadlib.metaAdClasses.MetaInterstitialAdSplash.** { *; }
--keep class com.manual.mediation.library.sotadlib.metaAdClasses.MetaNativeAdManager.** { *; }
 
 -keep class com.manual.mediation.library.sotadlib.utils.AdLoadingDialog.** { *; }
 -keep class com.manual.mediation.library.sotadlib.utils.ExFunKt.** { *; }
