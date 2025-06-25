@@ -17,6 +17,8 @@ import com.manual.mediation.library.sotadlib.adapters.LanguageAdapter
 import com.manual.mediation.library.sotadlib.callingClasses.LanguageScreensConfiguration
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsManager
+import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
+import com.manual.mediation.library.sotadlib.objects.StatusBarColor.STATUS_BAR_COLOR
 import com.manual.mediation.library.sotadlib.utils.MyLocaleHelper
 import com.manual.mediation.library.sotadlib.utils.hideSystemUIUpdated
 import com.manual.mediation.library.sotadlib.utils.setStatusBarColor
@@ -27,16 +29,17 @@ class LanguageScreenDup: AppCompatBaseActivity() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var imvDone: AppCompatImageView
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
-
+    private var tracker: CommonEventTracker? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
         hideSystemUIUpdated()
         setContentView(R.layout.language_screen_dup)
-        sotAdsConfigurations?.languageScreensConfiguration?.eventTracker?.logEvent(
+        tracker = sotAdsConfigurations?.languageScreensConfiguration?.eventTracker
+        tracker?.logEvent(
             this,
-            "sot_language_two_started"
+            "language2_scr"
         )
         Log.i("SOTStartTestActivity", "language2_scr")
         imvDone = findViewById(R.id.imvDone)
@@ -61,6 +64,10 @@ class LanguageScreenDup: AppCompatBaseActivity() {
                 rootView.setBackgroundColor(it)
                 setStatusBarColor(it)
             }
+            config.statusBarColor?.let {
+                setStatusBarColor(it)
+                STATUS_BAR_COLOR = it
+            }
             config.languageList?.let { languageList ->
                 config.selectedDrawable?.let { selectedDrawable ->
                     config.unSelectedDrawable?.let { unSelectedDrawable ->
@@ -76,6 +83,10 @@ class LanguageScreenDup: AppCompatBaseActivity() {
                                             position ->
                                         val language = languageList[position]
                                         MyLocaleHelper.setLocale(this, language.code)
+                                        tracker?.logEvent(
+                                            this,
+                                            "language2_scr_tap_language"
+                                        )
 
                                     }
                                     , fontColor = config.fontColor!!
@@ -89,6 +100,10 @@ class LanguageScreenDup: AppCompatBaseActivity() {
         }
 
         imvDone.setOnClickListener {
+            tracker?.logEvent(
+                this,
+                "language2_scr_tap_next"
+            )
             Log.i("SOTStartTestActivity", "language2_scr_tap_language")
             intent?.let {
                 if (it.getStringExtra("From").equals("AppSettings")) {
@@ -146,10 +161,18 @@ class LanguageScreenDup: AppCompatBaseActivity() {
                 populateView = true,
                 adContainer = findViewById(R.id.nativeAdContainerAd),
                 onAdFailed = {
+                    tracker?.logEvent(
+                        this,
+                        "sot_language_two_onAdFailed"
+                    )
                     findViewById<CardView>(R.id.nativeAdContainerAd).visibility = View.GONE
                     Log.i("SOT_ADS_TAG", "LanguageScreenDup: Admob onAdFailed()")
                 },
                 onAdLoaded = {
+                    tracker?.logEvent(
+                        this,
+                        "sot_language_two_onAdLoaded"
+                    )
                     Log.i("SOT_ADS_TAG", "LanguageScreenDup: Admob onAdLoaded()")
                 }
             )

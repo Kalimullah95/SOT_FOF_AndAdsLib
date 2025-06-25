@@ -26,6 +26,7 @@ int drawable czech_republic 0x0
 int drawable denmark 0x0
 int drawable estonia 0x0
 int drawable ethiopia 0x0
+int drawable ff 0x0
 int drawable finland 0x0
 int drawable france 0x0
 int drawable georgia 0x0
@@ -43,6 +44,7 @@ int drawable ic_radio_button_unchecked 0x0
 int drawable ic_saudi_arabia 0x0
 int drawable ic_text_dummy 0x0
 int drawable iceland 0x0
+int drawable img2 0x0
 int drawable india 0x0
 int drawable indonesia 0x0
 int drawable iran 0x0

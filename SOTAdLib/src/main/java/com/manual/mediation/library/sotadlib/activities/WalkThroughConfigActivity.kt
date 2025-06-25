@@ -79,7 +79,7 @@ class WalkThroughConfigActivity : AppCompatBaseActivity() {
                         0 -> if (position == 1) {
                             eventTracker?.logEvent(
                                 this@WalkThroughConfigActivity,
-                                "walk_through_one_"
+                                "walkthrough1_scr"
                             )
                             Log.i("WalkThrough", "0 → 1")
                         }
@@ -87,6 +87,7 @@ class WalkThroughConfigActivity : AppCompatBaseActivity() {
                             if (position == 2) {
                                 Log.i("WalkThrough", "1 → 2")
                             } else if (position == 0) {
+                                eventTracker?.logEvent(this@WalkThroughConfigActivity, "walkthrough2_scr_swipe_back")
                                 Log.i("WalkThrough", "1 → 0")
                             }
                         }

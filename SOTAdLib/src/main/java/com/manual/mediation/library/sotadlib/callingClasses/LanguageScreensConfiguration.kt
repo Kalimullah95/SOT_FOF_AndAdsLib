@@ -11,6 +11,7 @@ import com.manual.mediation.library.sotadlib.activities.LanguageScreenOne
 import com.manual.mediation.library.sotadlib.data.Language
 import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
 import com.manual.mediation.library.sotadlib.interfaces.LanguageInterface
+import com.manual.mediation.library.sotadlib.objects.StatusBarColor
 
 class LanguageScreensConfiguration private constructor() {
 
@@ -26,6 +27,7 @@ class LanguageScreensConfiguration private constructor() {
     var unSelectedRadio: Drawable? = null
 
      var theme: Int? = null
+     var statusBarColor: Int? = null
      var fontColor:Int? = null
      var headingColor:Int? = null
 
@@ -58,6 +60,7 @@ class LanguageScreensConfiguration private constructor() {
         private var tickSelector: Drawable? = null
         private var unSelectedRadio: Drawable? = null
         private var theme: Int? = null
+        private var statusBarColor: Int? = null
         private var fontColor:Int? = null
         private var headingColor:Int? = null
         private var eventTracker: CommonEventTracker? = null
@@ -66,7 +69,7 @@ class LanguageScreensConfiguration private constructor() {
             this.activity = myActivity
         }
         fun setEventTracker(tracker: CommonEventTracker) = apply { this.eventTracker = tracker }
-        fun setDrawableColors(selectedDrawable: Drawable, unSelectedDrawable: Drawable, selectedRadio: Drawable, unSelectedRadio: Drawable,tickSelector:Drawable,themeColor:Int,font: Int,headingColor:Int) = apply {
+        fun setDrawableColors(selectedDrawable: Drawable, unSelectedDrawable: Drawable, selectedRadio: Drawable, unSelectedRadio: Drawable,tickSelector:Drawable,themeColor:Int,statusBarColor:Int,font: Int,headingColor:Int) = apply {
             this.selectedDrawable = selectedDrawable
             this.unSelectedDrawable = unSelectedDrawable
             this.selectedRadio = selectedRadio
@@ -74,6 +77,7 @@ class LanguageScreensConfiguration private constructor() {
             this.tickSelector = tickSelector
             this.fontColor = font
             this.theme = themeColor
+            this.statusBarColor = statusBarColor
             this.headingColor = headingColor
         }
 
@@ -94,6 +98,7 @@ class LanguageScreensConfiguration private constructor() {
             languageScreensConfiguration.selectedRadio = selectedRadio!!
             languageScreensConfiguration.unSelectedRadio = unSelectedRadio!!
             languageScreensConfiguration.theme = theme!!
+            languageScreensConfiguration.statusBarColor = statusBarColor!!
             languageScreensConfiguration.fontColor = fontColor!!
             languageScreensConfiguration.eventTracker = eventTracker
             languageInstance = languageScreensConfiguration

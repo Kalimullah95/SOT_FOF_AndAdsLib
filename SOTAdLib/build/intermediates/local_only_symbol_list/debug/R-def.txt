@@ -28,6 +28,7 @@ drawable czech_republic
 drawable denmark
 drawable estonia
 drawable ethiopia
+drawable ff
 drawable finland
 drawable france
 drawable georgia
@@ -45,6 +46,7 @@ drawable ic_radio_button_unchecked
 drawable ic_saudi_arabia
 drawable ic_text_dummy
 drawable iceland
+drawable img2
 drawable india
 drawable indonesia
 drawable iran

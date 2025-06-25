@@ -18,6 +18,7 @@ import com.manual.mediation.library.sotadlib.adapters.LanguageAdapter
 import com.manual.mediation.library.sotadlib.callingClasses.LanguageScreensConfiguration
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsConfigurations
 import com.manual.mediation.library.sotadlib.callingClasses.SOTAdsManager
+import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
 import com.manual.mediation.library.sotadlib.interfaces.LanguageInterface
 import com.manual.mediation.library.sotadlib.objects.StatusBarColor.STATUS_BAR_COLOR
 import com.manual.mediation.library.sotadlib.utils.hideSystemUIUpdated
@@ -28,18 +29,19 @@ class LanguageScreenOne : AppCompatBaseActivity(), LanguageInterface {
     private lateinit var languageAdapter: LanguageAdapter
     private lateinit var recyclerView: RecyclerView
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
-
+    private var tracker:CommonEventTracker? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
-        sotAdsConfigurations?.languageScreensConfiguration?.eventTracker?.logEvent(
-            this,
-            "sot_language_0ne_started"
-        )
+        tracker = sotAdsConfigurations?.languageScreensConfiguration?.eventTracker
         supportActionBar?.hide()
         hideSystemUIUpdated()
         setContentView(R.layout.language_screen_one)
+        tracker?.logEvent(
+            this,
+            "language1_scr"
+        )
         Log.i("SOTStartTestActivity", "language1_scr")
         onBackPressedDispatcher.addCallback(this) {
             /**Disable backPress until Home**/
@@ -59,6 +61,9 @@ class LanguageScreenOne : AppCompatBaseActivity(), LanguageInterface {
             config.theme?.let {
                 val rootView = findViewById<View>(R.id.root_view)
                 rootView.setBackgroundColor(it)
+                STATUS_BAR_COLOR = it
+            }
+            config.statusBarColor?.let {
                 setStatusBarColor(it)
                 STATUS_BAR_COLOR = it
             }
@@ -72,6 +77,10 @@ class LanguageScreenOne : AppCompatBaseActivity(), LanguageInterface {
                             unSelectedDrawable = config.unSelectedDrawable!!,
                             selectedRadio = config.selectedRadio!!,
                             unSelectedRadio = config.unSelectedRadio!!, onItemClickListener = {
+                                tracker?.logEvent(
+                                    this,
+                                    "language1_scr_tap_language"
+                                )
                                 config.showLanguageTwoScreen()
                             }, fontColor = config.fontColor!!)
 
@@ -95,7 +104,6 @@ class LanguageScreenOne : AppCompatBaseActivity(), LanguageInterface {
                 if (intent.resolveActivity(packageManager) != null) {
                     startActivity(intent, ActivityOptions.makeCustomAnimation(this, 0, 0).toBundle())
                     finish()
-                    overridePendingTransition(0, 0)
                 } else {
                     Log.e("LanguageScreenOne", "No activity found to handle intent")
                 }
@@ -133,6 +141,10 @@ class LanguageScreenOne : AppCompatBaseActivity(), LanguageInterface {
                     Log.i("LanguageScreenOne", "Language: onAdFailed()")
                 },
                 onAdLoaded = {
+                    tracker?.logEvent(
+                        this,
+                        "sot_language_0ne_adShown"
+                    )
                     Log.i("LanguageScreenOne", "Language: onAdLoaded()")
                 }
             )

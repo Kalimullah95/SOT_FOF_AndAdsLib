@@ -53,6 +53,7 @@ dependencies {
 
     // Admob + Mintegral + Unity
     implementation libs.play.services.ads
+    //implementation 'com.github.Kalimullah95:SOT_FOF_AndAdsLib:1.0'
 
     implementation 'androidx.lifecycle:lifecycle-process:2.8.6'
     implementation 'com.facebook.android:audience-network-sdk:6.11.0'

@@ -55,8 +55,8 @@ class WTTwoFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = FragmentWTTwoBinding.inflate(inflater, container, false)
         eventTracker?.logEvent(
-            requireContext(),
-            "walk_through_two_"
+            requireActivity(),
+            "walkthrough2_scr"
         )
         return binding.root
     }
@@ -99,7 +99,10 @@ class WTTwoFragment : Fragment() {
         }
         binding.btnNext.setOnClickListener {
             Log.i("SOTStartTestActivity", "walkthrough2_scr_tap_next")
-
+            eventTracker?.logEvent(
+                requireActivity(),
+                "walkthrough2_scr_tap_next"
+            )
             val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPager)
             viewPager?.currentItem = 2
         }

@@ -64,7 +64,7 @@ class WTThreeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
-        eventTracker?.logEvent(requireContext(), "walk_through_three_")
+        eventTracker?.logEvent(requireActivity(), "walkthrough3_scr")
 
         Log.i("SOTStartTestActivity", "walkthrough3_scr")
 
@@ -107,6 +107,7 @@ class WTThreeFragment : Fragment() {
 
     private fun setupButton() {
         binding.btnNext.setOnClickListener {
+            eventTracker?.logEvent(requireActivity(), "walkthrough3_scr_tap_start")
             if (sotAdsConfigurations?.getRemoteConfigData()?.get("INTERSTITIAL_LETS_START") as? Boolean == true) {
                 safeShowAdmobWTThreeInterstitial()
             } else {

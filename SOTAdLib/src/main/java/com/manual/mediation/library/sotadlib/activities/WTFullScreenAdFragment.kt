@@ -48,7 +48,7 @@ class WTFullScreenAdFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
         eventTracker?.logEvent(
-            requireContext(),
+            requireActivity(),
             "WTFullScreenAdFragment"
         )
         Log.i("SOTStartTestActivity", "walkthrough_fullscr")

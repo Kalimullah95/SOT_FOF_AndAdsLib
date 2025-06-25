@@ -3943,6 +3943,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable estonia
 drawable ethiopia
+drawable ff
 drawable finland
 drawable france
 drawable georgia
@@ -3982,6 +3983,7 @@ drawable ic_saudi_arabia
 drawable ic_search_black_24
 drawable ic_text_dummy
 drawable iceland
+drawable img2
 drawable indeterminate_static
 drawable india
 drawable indonesia

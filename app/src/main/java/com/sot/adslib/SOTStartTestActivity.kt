@@ -143,6 +143,7 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                     com.manual.mediation.library.sotadlib.R.drawable.ic_done
                 )!!,
                 themeColor = ContextCompat.getColor(this, R.color.red),
+                statusBarColor = ContextCompat.getColor(this, R.color.red),
                 font = ContextCompat.getColor(this, R.color.yellow),
                 headingColor = ContextCompat.getColor(this, R.color.yellow),
             )
@@ -386,7 +387,7 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 headingColor = com.manual.mediation.library.sotadlib.R.color.redLib,
                 descriptionColor = com.manual.mediation.library.sotadlib.R.color.yellowLib,
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
-                drawableResId = com.manual.mediation.library.sotadlib.R.drawable.pakistan,
+                drawableResId = com.manual.mediation.library.sotadlib.R.drawable.ff,
                 drawableBubbleResId = R.drawable.ic_launcher_foreground,
                 viewBackgroundColor = ContextCompat.getColor(this, R.color.red)
             ),
@@ -396,7 +397,7 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 headingColor = com.manual.mediation.library.sotadlib.R.color.redLib,
                 descriptionColor = com.manual.mediation.library.sotadlib.R.color.yellowLib,
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
-                drawableResId = com.manual.mediation.library.sotadlib.R.drawable.pakistan,
+                drawableResId = com.manual.mediation.library.sotadlib.R.drawable.img2,
                 drawableBubbleResId = R.drawable.ic_launcher_foreground,
                 viewBackgroundColor = ContextCompat.getColor(this, R.color.red)
             ),
@@ -406,7 +407,7 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 headingColor = com.manual.mediation.library.sotadlib.R.color.redLib,
                 descriptionColor = com.manual.mediation.library.sotadlib.R.color.yellowLib,
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
-                drawableResId = com.manual.mediation.library.sotadlib.R.drawable.pakistan,
+                drawableResId = com.manual.mediation.library.sotadlib.R.drawable.ff,
                 drawableBubbleResId = R.drawable.ic_launcher_foreground,
                 viewBackgroundColor = ContextCompat.getColor(this, R.color.red)
             )

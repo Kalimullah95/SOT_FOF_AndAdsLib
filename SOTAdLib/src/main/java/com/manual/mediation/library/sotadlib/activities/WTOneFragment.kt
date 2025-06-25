@@ -56,8 +56,8 @@ class WTOneFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = FragmentWTOneBinding.inflate(inflater, container,false)
         eventTracker?.logEvent(
-            requireContext(),
-            "walk_through_one_"
+            requireActivity(),
+            "walkthrough1_scr"
         )
         return binding.root
     }
@@ -111,6 +111,10 @@ class WTOneFragment : Fragment() {
         binding.txtDescription.text = item.description
 
         binding.btnNext.setOnClickListener {
+            eventTracker?.logEvent(
+                requireActivity(),
+                "walkthrough1_scr_tap_next"
+            )
             Log.i("SOTStartTestActivity", "walkthrough1_scr_tap_next")
             val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPager)
             viewPager?.currentItem = 1
@@ -199,6 +203,7 @@ class WTOneFragment : Fragment() {
                     Log.i("SOT_ADS_TAG", "WALKTHROUGH_1: Admob: onAdFailed()")
                 },
                 onAdLoaded = {
+
                     binding.nativeAdContainerAd.visibility = View.VISIBLE
                     Log.i("SOT_ADS_TAG", "WALKTHROUGH_1: Admob: onAdLoaded()")
                 }
