@@ -51,10 +51,10 @@ class LanguageScreenDup: AppCompatBaseActivity() {
 
         LanguageScreensConfiguration.languageInstance?.let { config ->
             Log.d("fontColor", "config.tow:${config.fontColor} ")
-            config.fontColor?.let {
+
+            config.headingColor?.let {
                 findViewById<TextView>(R.id.txtSelectKeyboard).setTextColor(it)
                 findViewById<TextView>(R.id.txtAllLanguages).setTextColor(it)
-               //
             }
             config.tickSelector?.let {
                 findViewById<AppCompatImageView>(R.id.imvDone).setBackgroundDrawable(it)

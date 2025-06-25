@@ -43,6 +43,9 @@ public final class FragmentWTOneBinding implements ViewBinding {
   public final ImageView main;
 
   @NonNull
+  public final ImageView mainCopy;
+
+  @NonNull
   public final CardView nativeAdContainerAd;
 
   @NonNull
@@ -60,9 +63,9 @@ public final class FragmentWTOneBinding implements ViewBinding {
   private FragmentWTOneBinding(@NonNull ConstraintLayout rootView_,
       @NonNull FrameLayout bannerAdMint, @NonNull TextView btnNext, @NonNull ImageView bubble,
       @NonNull ConstraintLayout cl2, @NonNull Guideline glOne, @NonNull ImageView main,
-      @NonNull CardView nativeAdContainerAd, @NonNull ConstraintLayout rootView,
-      @NonNull ShimmerFrameLayout shimmerLayout, @NonNull TextView txtDescription,
-      @NonNull TextView txtHeading) {
+      @NonNull ImageView mainCopy, @NonNull CardView nativeAdContainerAd,
+      @NonNull ConstraintLayout rootView, @NonNull ShimmerFrameLayout shimmerLayout,
+      @NonNull TextView txtDescription, @NonNull TextView txtHeading) {
     this.rootView_ = rootView_;
     this.bannerAdMint = bannerAdMint;
     this.btnNext = btnNext;
@@ -70,6 +73,7 @@ public final class FragmentWTOneBinding implements ViewBinding {
     this.cl2 = cl2;
     this.glOne = glOne;
     this.main = main;
+    this.mainCopy = mainCopy;
     this.nativeAdContainerAd = nativeAdContainerAd;
     this.rootView = rootView;
     this.shimmerLayout = shimmerLayout;
@@ -140,6 +144,12 @@ public final class FragmentWTOneBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.mainCopy;
+      ImageView mainCopy = ViewBindings.findChildViewById(rootView, id);
+      if (mainCopy == null) {
+        break missingId;
+      }
+
       id = R.id.nativeAdContainerAd;
       CardView nativeAdContainerAd = ViewBindings.findChildViewById(rootView, id);
       if (nativeAdContainerAd == null) {
@@ -167,7 +177,7 @@ public final class FragmentWTOneBinding implements ViewBinding {
       }
 
       return new FragmentWTOneBinding((ConstraintLayout) rootView, bannerAdMint, btnNext, bubble,
-          cl2, glOne, main, nativeAdContainerAd, rootView_, shimmerLayout, txtDescription,
+          cl2, glOne, main, mainCopy, nativeAdContainerAd, rootView_, shimmerLayout, txtDescription,
           txtHeading);
     }
     String missingId = rootView.getResources().getResourceName(id);

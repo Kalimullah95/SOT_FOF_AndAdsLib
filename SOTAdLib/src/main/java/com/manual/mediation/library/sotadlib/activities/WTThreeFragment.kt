@@ -31,7 +31,7 @@ class WTThreeFragment : Fragment() {
     private lateinit var item: WalkThroughItem
     private var eventTracker: CommonEventTracker? = null
     private var adShown = false
-
+    private var scaleType :Int = 0
     companion object {
         private const val ARG_ITEM = "walkThroughItem"
 
@@ -49,6 +49,7 @@ class WTThreeFragment : Fragment() {
         super.onCreate(savedInstanceState)
         arguments?.getParcelable<WalkThroughItem>(ARG_ITEM)?.let {
             item = it
+            scaleType = item.imageScale
         } ?: throw IllegalStateException("WalkThroughItem must be provided")
     }
 
@@ -58,6 +59,14 @@ class WTThreeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentWTThreeBinding.inflate(inflater, container, false)
+        if (scaleType == 0){
+            binding.main.visibility = View.GONE
+            binding.mainCopy.visibility = View.VISIBLE
+        }
+        else{
+            binding.main.visibility = View.VISIBLE
+            binding.mainCopy.visibility = View.GONE
+        }
         return binding.root
     }
 
@@ -77,11 +86,26 @@ class WTThreeFragment : Fragment() {
         viewLifecycleOwner.lifecycleScope.launch {
             withContext(Dispatchers.Main) {
                 context?.let {
-                    Glide.with(it)
-                        .load(item.drawableResId)
-                        .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
-                        .skipMemoryCache(true)
-                        .into(binding.main)
+
+                        val targetImageView = if (scaleType == 0) {
+                            binding.main.visibility = View.GONE
+                            binding.mainCopy.visibility = View.VISIBLE
+                            binding.mainCopy
+                        } else {
+                            binding.main.visibility = View.VISIBLE
+                            binding.mainCopy.visibility = View.GONE
+                            binding.main
+                        }
+
+                        // Load image into the visible ImageView
+                        withContext(Dispatchers.Main) {
+                            Glide.with(requireActivity())
+                                .load(item.drawableResId)
+                                .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
+                                .skipMemoryCache(true)
+                                .into(targetImageView)
+                        }
+
 
                     Glide.with(it)
                         .load(item.drawableBubbleResId)
@@ -95,9 +119,9 @@ class WTThreeFragment : Fragment() {
 
     private fun setupTextViews() {
         context?.let {
-            binding.txtHeading.setTextColor(item.headingColor)
-            binding.txtDescription.setTextColor(item.descriptionColor)
-            binding.btnNext.setTextColor(item.nextColor)
+            binding.txtHeading.setTextColor(ContextCompat.getColor(requireContext(),item.headingColor))
+            binding.txtDescription.setTextColor(ContextCompat.getColor(requireContext(),item.descriptionColor))
+            binding.btnNext.setTextColor(ContextCompat.getColor(requireContext(),item.nextColor))
             binding.root.setBackgroundColor(item.viewBackgroundColor)
         }
 

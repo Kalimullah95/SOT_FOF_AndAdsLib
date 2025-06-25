@@ -21,11 +21,9 @@ class LanguageScreensConfiguration private constructor() {
     var eventTracker: CommonEventTracker? = null
     var selectedDrawable: Drawable? = null
     var unSelectedDrawable: Drawable? = null
-
     var selectedRadio: Drawable? = null
     var tickSelector: Drawable? = null
     var unSelectedRadio: Drawable? = null
-
      var theme: Int? = null
      var statusBarColor: Int? = null
      var fontColor:Int? = null
@@ -92,7 +90,6 @@ class LanguageScreensConfiguration private constructor() {
             val languageScreensConfiguration = LanguageScreensConfiguration()
             languageScreensConfiguration.activityContext = activity
             languageScreensConfiguration.languageList = languageList!!
-
             languageScreensConfiguration.selectedDrawable = selectedDrawable!!
             languageScreensConfiguration.unSelectedDrawable = unSelectedDrawable!!
             languageScreensConfiguration.selectedRadio = selectedRadio!!
@@ -100,6 +97,7 @@ class LanguageScreensConfiguration private constructor() {
             languageScreensConfiguration.theme = theme!!
             languageScreensConfiguration.statusBarColor = statusBarColor!!
             languageScreensConfiguration.fontColor = fontColor!!
+            languageScreensConfiguration.headingColor = headingColor!!
             languageScreensConfiguration.eventTracker = eventTracker
             languageInstance = languageScreensConfiguration
             return languageScreensConfiguration

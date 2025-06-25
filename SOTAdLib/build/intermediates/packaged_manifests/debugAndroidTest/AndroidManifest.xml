@@ -20,7 +20,7 @@
         <package android:name="androidx.test.orchestrator" />
         <package android:name="androidx.test.services" />
         <package android:name="com.google.android.apps.common.testing.services" />
-        <!-- For browser content -->
+        <package android:name="com.facebook.katana" /> <!-- For browser content -->
         <intent>
             <action android:name="android.intent.action.VIEW" />
 
@@ -48,8 +48,6 @@
 
             <data android:path="tel:" />
         </intent>
-
-        <package android:name="com.facebook.katana" />
     </queries>
 
     <uses-permission android:name="android.permission.REORDER_TASKS" />
@@ -122,7 +120,17 @@
             <intent-filter android:priority="-100" >
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        </activity>
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+            android:authorities="com.manual.mediation.library.sotadlib.test.AudienceNetworkContentProvider"
+            android:exported="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
@@ -152,20 +160,12 @@
             android:taskAffinity=""
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
-        <property
-            android:name="android.adservices.AD_SERVICES_CONFIG"
-            android:resource="@xml/gma_ad_services_config" />
-
-        <activity
-            android:name="com.facebook.ads.AudienceNetworkActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <provider
-            android:name="com.facebook.ads.AudienceNetworkContentProvider"
-            android:authorities="com.manual.mediation.library.sotadlib.test.AudienceNetworkContentProvider"
-            android:exported="false" />
+        <meta-data
+            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+            android:value="true" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

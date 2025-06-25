@@ -27,9 +27,10 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 class WTOneFragment : Fragment() {
-    lateinit var binding: FragmentWTOneBinding
+    private lateinit var binding: FragmentWTOneBinding
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
     private var eventTracker: CommonEventTracker? = null
+    private var scaleType :Int = 0
     // Add a companion object with newInstance method
     companion object {
         private const val ARG_ITEM = "walkThroughItem"
@@ -51,6 +52,7 @@ class WTOneFragment : Fragment() {
         super.onCreate(savedInstanceState)
         // Retrieve the item from arguments
         item = arguments?.getParcelable(ARG_ITEM) ?: throw IllegalStateException("WalkThroughItem must be provided")
+        scaleType = item.imageScale
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
@@ -59,6 +61,14 @@ class WTOneFragment : Fragment() {
             requireActivity(),
             "walkthrough1_scr"
         )
+        if (scaleType == 0){
+            binding.main.visibility = View.GONE
+            binding.mainCopy.visibility = View.VISIBLE
+        }
+        else{
+            binding.main.visibility = View.VISIBLE
+            binding.mainCopy.visibility = View.GONE
+        }
         return binding.root
     }
 
@@ -82,13 +92,23 @@ class WTOneFragment : Fragment() {
         }
 
         lifecycleScope.launch {
+            val targetImageView = if (scaleType == 0) {
+                binding.main.visibility = View.GONE
+                binding.mainCopy.visibility = View.VISIBLE
+                binding.mainCopy
+            } else {
+                binding.main.visibility = View.VISIBLE
+                binding.mainCopy.visibility = View.GONE
+                binding.main
+            }
+
+            // Load image into the visible ImageView
             withContext(Dispatchers.Main) {
                 Glide.with(requireActivity())
-                    .asDrawable()
                     .load(item.drawableResId)
                     .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
                     .skipMemoryCache(true)
-                    .into(binding.main)
+                    .into(targetImageView)
             }
         }
         lifecycleScope.launch {
@@ -102,9 +122,9 @@ class WTOneFragment : Fragment() {
             }
         }
 
-        binding.txtHeading.setTextColor( item.headingColor)
-        binding.txtDescription.setTextColor( item.descriptionColor)
-        binding.btnNext.setTextColor( item.nextColor)
+        binding.txtHeading.setTextColor( ContextCompat.getColor(requireContext(),item.headingColor))
+        binding.txtDescription.setTextColor(ContextCompat.getColor(requireContext(), item.descriptionColor))
+        binding.btnNext.setTextColor(ContextCompat.getColor(requireContext(), item.nextColor))
         binding.rootView.rootView.setBackgroundColor(item.viewBackgroundColor)
 
         binding.txtHeading.text = item.heading

@@ -387,9 +387,10 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 headingColor = com.manual.mediation.library.sotadlib.R.color.redLib,
                 descriptionColor = com.manual.mediation.library.sotadlib.R.color.yellowLib,
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
-                drawableResId = com.manual.mediation.library.sotadlib.R.drawable.ff,
+                drawableResId = com.manual.mediation.library.sotadlib.R.drawable.pakistan,
                 drawableBubbleResId = R.drawable.ic_launcher_foreground,
-                viewBackgroundColor = ContextCompat.getColor(this, R.color.red)
+                viewBackgroundColor = ContextCompat.getColor(this, R.color.red),
+                imageScale = 1
             ),
             WalkThroughItem(
                 heading = "Screen 2",
@@ -399,7 +400,8 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
                 drawableResId = com.manual.mediation.library.sotadlib.R.drawable.img2,
                 drawableBubbleResId = R.drawable.ic_launcher_foreground,
-                viewBackgroundColor = ContextCompat.getColor(this, R.color.red)
+                viewBackgroundColor = ContextCompat.getColor(this, R.color.red),
+                imageScale = 1
             ),
             WalkThroughItem(
                 heading = "Screen 3",
@@ -407,9 +409,10 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 headingColor = com.manual.mediation.library.sotadlib.R.color.redLib,
                 descriptionColor = com.manual.mediation.library.sotadlib.R.color.yellowLib,
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
-                drawableResId = com.manual.mediation.library.sotadlib.R.drawable.ff,
+                drawableResId = com.manual.mediation.library.sotadlib.R.drawable.img2,
                 drawableBubbleResId = R.drawable.ic_launcher_foreground,
-                viewBackgroundColor = ContextCompat.getColor(this, R.color.red)
+                viewBackgroundColor = ContextCompat.getColor(this, R.color.red),
+                imageScale = 1
             )
         )
     }

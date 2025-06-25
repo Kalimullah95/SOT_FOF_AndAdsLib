@@ -30,6 +30,7 @@ class WTTwoFragment : Fragment() {
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
     private lateinit var item: WalkThroughItem
     private var eventTracker: CommonEventTracker? = null
+    private var scaleType :Int = 0
     companion object {
         private const val ARG_ITEM = "walkThroughItem"
 
@@ -49,6 +50,7 @@ class WTTwoFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         item = arguments?.getParcelable(ARG_ITEM) ?: throw IllegalStateException("WalkThroughItem must be provided")
+        scaleType =item.imageScale
     }
 
 
@@ -58,6 +60,14 @@ class WTTwoFragment : Fragment() {
             requireActivity(),
             "walkthrough2_scr"
         )
+        if (scaleType == 0){
+            binding.main.visibility = View.GONE
+            binding.mainCopy.visibility = View.VISIBLE
+        }
+        else{
+            binding.main.visibility = View.VISIBLE
+            binding.mainCopy.visibility = View.GONE
+        }
         return binding.root
     }
 
@@ -66,13 +76,23 @@ class WTTwoFragment : Fragment() {
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
         Log.i("SOTStartTestActivity", "walkthrough2_scr")
         lifecycleScope.launch {
+            val targetImageView = if (scaleType == 0) {
+                binding.main.visibility = View.GONE
+                binding.mainCopy.visibility = View.VISIBLE
+                binding.mainCopy
+            } else {
+                binding.main.visibility = View.VISIBLE
+                binding.mainCopy.visibility = View.GONE
+                binding.main
+            }
+
+            // Load image into the visible ImageView
             withContext(Dispatchers.Main) {
                 Glide.with(requireActivity())
-                    .asDrawable()
                     .load(item.drawableResId)
                     .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
                     .skipMemoryCache(true)
-                    .into(binding.main)
+                    .into(targetImageView)
             }
         }
         lifecycleScope.launch {
@@ -86,9 +106,9 @@ class WTTwoFragment : Fragment() {
             }
         }
 
-        binding.txtHeading.setTextColor( item.headingColor)
-        binding.txtDescription.setTextColor( item.descriptionColor)
-        binding.btnNext.setTextColor( item.nextColor)
+        binding.txtHeading.setTextColor( ContextCompat.getColor(requireContext(),item.headingColor))
+        binding.txtDescription.setTextColor(ContextCompat.getColor(requireContext(),item.descriptionColor))
+        binding.btnNext.setTextColor(ContextCompat.getColor(requireContext(),item.nextColor))
 
         binding.txtHeading.text = item.heading
         binding.txtDescription.text = item.description

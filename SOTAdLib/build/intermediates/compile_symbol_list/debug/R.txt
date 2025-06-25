@@ -151,6 +151,7 @@ int id ll4 0x0
 int id ll4Shimmer 0x0
 int id loadingAdNested 0x0
 int id main 0x0
+int id mainCopy 0x0
 int id mainLayout 0x0
 int id media_container 0x0
 int id nativeAdBody 0x0

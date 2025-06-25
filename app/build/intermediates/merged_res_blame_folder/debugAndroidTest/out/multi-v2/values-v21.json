@@ -4,7 +4,7 @@
             "outputFile": "com.sot.adslib.test.app-mergeDebugAndroidTestResources-2:/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\RYZEN\\.gradle\\caches\\transforms-3\\e58759bd45562a1d430df21f354029a9\\transformed\\core-1.6.1\\res\\values-v21\\values.xml",
+                    "source": "C:\\Users\\RYZEN\\.gradle\\caches\\transforms-3\\9e333ca6e5b0e342af4025da2668a1c5\\transformed\\core-1.6.1\\res\\values-v21\\values.xml",
                     "from": {
                         "startLines": "4,13",
                         "startColumns": "0,0",

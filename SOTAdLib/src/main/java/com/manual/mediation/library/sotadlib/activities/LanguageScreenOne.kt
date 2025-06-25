@@ -54,10 +54,11 @@ class LanguageScreenOne : AppCompatBaseActivity(), LanguageInterface {
         LanguageScreensConfiguration.languageInstance?.let { config ->
             config.setLanguageInterface(this)
             Log.d("fontColor", "config.fontColor:${config.headingColor} ")
-            config.fontColor?.let {
+            config.headingColor?.let {
                 findViewById<TextView>(R.id.txtSelectKeyboard).setTextColor(it)
                 findViewById<TextView>(R.id.txtAllLanguages).setTextColor(it)
             }
+
             config.theme?.let {
                 val rootView = findViewById<View>(R.id.root_view)
                 rootView.setBackgroundColor(it)

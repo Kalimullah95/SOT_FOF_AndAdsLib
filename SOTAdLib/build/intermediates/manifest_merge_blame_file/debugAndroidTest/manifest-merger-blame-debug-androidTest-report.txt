@@ -3,24 +3,24 @@
 3    package="com.manual.mediation.library.sotadlib.test" >
 4
 5    <uses-sdk
-5-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:5:5-74
+5-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:5:5-74
 6        android:minSdkVersion="23"
-6-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:5:15-41
+6-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:5:15-41
 7        android:targetSdkVersion="23" />
-7-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:5:42-71
+7-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:5:42-71
 8
 9    <instrumentation
-9-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:11:5-15:92
+9-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:11:5-15:92
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:11:22-76
+10-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:11:22-76
 11        android:functionalTest="false"
-11-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:14:22-52
+11-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:14:22-52
 12        android:handleProfiling="false"
-12-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:13:22-53
+12-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:13:22-53
 13        android:label="Tests for com.manual.mediation.library.sotadlib.test"
-13-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:15:22-90
+13-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:15:22-90
 14        android:targetPackage="com.manual.mediation.library.sotadlib.test" />
-14-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:12:22-88
+14-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:12:22-88
 15
 16    <uses-permission android:name="android.permission.INTERNET" />
 16-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-67
@@ -30,591 +30,594 @@
 17-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
 18
 19    <queries>
-19-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\87ff592095cc35a558bf5e9807c30c30\transformed\runner-1.6.1\AndroidManifest.xml:24:5-28:15
+19-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\82e115e31c4f945c722c9268e2a66f11\transformed\runner-1.6.1\AndroidManifest.xml:24:5-28:15
 20        <package android:name="androidx.test.orchestrator" />
-20-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\87ff592095cc35a558bf5e9807c30c30\transformed\runner-1.6.1\AndroidManifest.xml:25:9-62
-20-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\87ff592095cc35a558bf5e9807c30c30\transformed\runner-1.6.1\AndroidManifest.xml:25:18-59
+20-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\82e115e31c4f945c722c9268e2a66f11\transformed\runner-1.6.1\AndroidManifest.xml:25:9-62
+20-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\82e115e31c4f945c722c9268e2a66f11\transformed\runner-1.6.1\AndroidManifest.xml:25:18-59
 21        <package android:name="androidx.test.services" />
-21-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\87ff592095cc35a558bf5e9807c30c30\transformed\runner-1.6.1\AndroidManifest.xml:26:9-58
-21-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\87ff592095cc35a558bf5e9807c30c30\transformed\runner-1.6.1\AndroidManifest.xml:26:18-55
+21-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\82e115e31c4f945c722c9268e2a66f11\transformed\runner-1.6.1\AndroidManifest.xml:26:9-58
+21-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\82e115e31c4f945c722c9268e2a66f11\transformed\runner-1.6.1\AndroidManifest.xml:26:18-55
 22        <package android:name="com.google.android.apps.common.testing.services" />
-22-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\87ff592095cc35a558bf5e9807c30c30\transformed\runner-1.6.1\AndroidManifest.xml:27:9-83
-22-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\87ff592095cc35a558bf5e9807c30c30\transformed\runner-1.6.1\AndroidManifest.xml:27:18-80
-23        <!-- For browser content -->
+22-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\82e115e31c4f945c722c9268e2a66f11\transformed\runner-1.6.1\AndroidManifest.xml:27:9-83
+22-->[androidx.test:runner:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\82e115e31c4f945c722c9268e2a66f11\transformed\runner-1.6.1\AndroidManifest.xml:27:18-80
+23        <package android:name="com.facebook.katana" /> <!-- For browser content -->
+23-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a090a06eece0519b454de827bf22246\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:12:9-55
+23-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a090a06eece0519b454de827bf22246\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:12:18-52
 24        <intent>
-24-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:38:9-44:18
+24-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:38:9-44:18
 25            <action android:name="android.intent.action.VIEW" />
-25-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:39:13-65
-25-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:39:21-62
+25-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:39:13-65
+25-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:39:21-62
 26
 27            <category android:name="android.intent.category.BROWSABLE" />
-27-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:41:13-74
-27-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:41:23-71
+27-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:41:13-74
+27-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:41:23-71
 28
 29            <data android:scheme="https" />
-29-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:43:13-44
-29-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:43:19-41
+29-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:43:13-44
+29-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:43:19-41
 30        </intent> <!-- End of browser content -->
 31        <!-- For CustomTabsService -->
 32        <intent>
-32-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:47:9-49:18
+32-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:47:9-49:18
 33            <action android:name="android.support.customtabs.action.CustomTabsService" />
-33-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:48:13-90
-33-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:48:21-87
+33-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:48:13-90
+33-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:48:21-87
 34        </intent> <!-- End of CustomTabsService -->
 35        <!-- For MRAID capabilities -->
 36        <intent>
-36-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:52:9-56:18
+36-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:52:9-56:18
 37            <action android:name="android.intent.action.INSERT" />
-37-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:53:13-67
-37-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:53:21-64
+37-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:53:13-67
+37-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:53:21-64
 38
 39            <data android:mimeType="vnd.android.cursor.dir/event" />
-39-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:43:13-44
+39-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:43:13-44
 40        </intent>
 41        <intent>
-41-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:57:9-61:18
+41-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:57:9-61:18
 42            <action android:name="android.intent.action.VIEW" />
-42-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:39:13-65
-42-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:39:21-62
+42-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:39:13-65
+42-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:39:21-62
 43
 44            <data android:scheme="sms" />
-44-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:43:13-44
-44-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:43:19-41
+44-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:43:13-44
+44-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:43:19-41
 45        </intent>
 46        <intent>
-46-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:62:9-66:18
+46-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:62:9-66:18
 47            <action android:name="android.intent.action.DIAL" />
-47-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:63:13-65
-47-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:63:21-62
+47-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:63:13-65
+47-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:63:21-62
 48
 49            <data android:path="tel:" />
-49-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:43:13-44
+49-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:43:13-44
 50        </intent>
-51
-52        <package android:name="com.facebook.katana" />
-52-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:12:9-55
-52-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:12:18-52
-53    </queries>
-54
-55    <uses-permission android:name="android.permission.REORDER_TASKS" />
-55-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
-55-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
-56    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-56-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:27:5-82
-56-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:27:22-79
-57    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-57-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:28:5-88
-57-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:28:22-85
-58    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
-58-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:29:5-83
-58-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:29:22-80
-59    <uses-permission android:name="android.permission.WAKE_LOCK" />
-59-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
-59-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\f3751a31a2ad4319a0ba6af91dcd20d1\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:22-65
-60    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-60-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
-60-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
-61
-62    <permission
-62-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
-63        android:name="com.manual.mediation.library.sotadlib.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-63-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
-64        android:protectionLevel="signature" />
-64-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+51    </queries>
+52
+53    <uses-permission android:name="android.permission.REORDER_TASKS" />
+53-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
+53-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:24:22-69
+54    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+54-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:27:5-82
+54-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:27:22-79
+55    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+55-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:28:5-88
+55-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:28:22-85
+56    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+56-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:29:5-83
+56-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:29:22-80
+57    <uses-permission android:name="android.permission.WAKE_LOCK" />
+57-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\2f9065945d534c219b661ce63762e8d6\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
+57-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\RYZEN\.gradle\caches\transforms-3\2f9065945d534c219b661ce63762e8d6\transformed\play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:22-65
+58    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+58-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
+58-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
+59
+60    <permission
+60-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\3e0b005d759a31e3d06bffcb23e6df79\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+61        android:name="com.manual.mediation.library.sotadlib.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+61-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\3e0b005d759a31e3d06bffcb23e6df79\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+62        android:protectionLevel="signature" />
+62-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\3e0b005d759a31e3d06bffcb23e6df79\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+63
+64    <uses-permission android:name="com.manual.mediation.library.sotadlib.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+64-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\3e0b005d759a31e3d06bffcb23e6df79\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+64-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\3e0b005d759a31e3d06bffcb23e6df79\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 65
-66    <uses-permission android:name="com.manual.mediation.library.sotadlib.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-66-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-66-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
-67
-68    <application
-68-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:7:5-9:19
-69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-69-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\6f7e2d64a0b07f0bdb460aef9129bf7f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
-70        android:debuggable="true"
-71        android:extractNativeLibs="false" >
-72        <uses-library android:name="android.test.runner" />
-72-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:8:9-60
-72-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4017323143973917786.xml:8:23-57
-73
-74        <activity
-74-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-18:52
-75            android:name="com.manual.mediation.library.sotadlib.activities.LanguageScreenOne"
-75-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-94
-76            android:exported="false"
-76-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
-77            android:screenOrientation="portrait" />
-77-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-49
-78        <activity
-78-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-22:52
-79            android:name="com.manual.mediation.library.sotadlib.activities.LanguageScreenDup"
-79-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-94
-80            android:exported="false"
-80-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
-81            android:screenOrientation="portrait" />
-81-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-49
-82        <activity
-82-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-26:52
-83            android:name="com.manual.mediation.library.sotadlib.activities.WelcomeScreenOne"
-83-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-93
-84            android:exported="true"
-84-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-36
-85            android:screenOrientation="portrait" />
-85-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-49
-86        <activity
-86-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-30:52
-87            android:name="com.manual.mediation.library.sotadlib.activities.WelcomeScreenDup"
-87-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-93
-88            android:exported="true"
-88-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-36
-89            android:screenOrientation="portrait" />
-89-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-49
-90        <activity
-90-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-34:52
-91            android:name="com.manual.mediation.library.sotadlib.activities.WalkThroughConfigActivity"
-91-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-102
-92            android:exported="true"
-92-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-36
-93            android:screenOrientation="portrait" />
-93-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-49
-94
-95        <meta-data
-95-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:9-38:57
-96            android:name="preloaded_fonts"
-96-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-43
-97            android:resource="@array/preloaded_fonts" />
-97-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-54
-98        <meta-data
-98-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:37
-99            android:name="com.google.android.gms.ads.flag.NATIVE_AD_DEBUGGER_ENABLED"
-99-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-86
-100            android:value="false" />
-100-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-34
-101
-102        <activity
-102-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20
-103            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
-103-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:28:13-99
-104            android:exported="true"
-104-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:29:13-36
-105            android:theme="@style/WhiteBackgroundTheme" >
-105-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:30:13-56
-106            <intent-filter android:priority="-100" >
-106-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
-106-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
-107                <category android:name="android.intent.category.LAUNCHER" />
-107-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:32:17-77
-107-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:32:27-74
-108            </intent-filter>
-109        </activity>
-110        <activity
-110-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:35:9-42:20
-111            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
-111-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:36:13-95
-112            android:exported="true"
-112-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:37:13-36
-113            android:theme="@style/WhiteBackgroundTheme" >
-113-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:38:13-56
-114            <intent-filter android:priority="-100" >
-114-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
-114-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
-115                <category android:name="android.intent.category.LAUNCHER" />
-115-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:32:17-77
-115-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:32:27-74
-116            </intent-filter>
-117        </activity>
-118        <activity
-118-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:43:9-50:20
-119            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
-119-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:44:13-103
-120            android:exported="true"
-120-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:45:13-36
-121            android:theme="@style/WhiteBackgroundDialogTheme" >
-121-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:46:13-62
-122            <intent-filter android:priority="-100" >
-122-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
-122-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
-123                <category android:name="android.intent.category.LAUNCHER" />
-123-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:32:17-77
-123-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\e58759bd45562a1d430df21f354029a9\transformed\core-1.6.1\AndroidManifest.xml:32:27-74
-124            </intent-filter>
-125        </activity> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-126        <activity
-126-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:73:9-78:43
-127            android:name="com.google.android.gms.ads.AdActivity"
-127-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:74:13-65
-128            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-128-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:75:13-122
-129            android:exported="false"
-129-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:76:13-37
-130            android:theme="@android:style/Theme.Translucent" />
-130-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:77:13-61
-131
-132        <provider
-132-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:80:9-85:43
-133            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-133-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:81:13-76
-134            android:authorities="com.manual.mediation.library.sotadlib.test.mobileadsinitprovider"
-134-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:82:13-73
-135            android:exported="false"
-135-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:83:13-37
-136            android:initOrder="100" />
-136-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:84:13-36
-137
-138        <service
-138-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:87:9-91:43
-139            android:name="com.google.android.gms.ads.AdService"
-139-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:88:13-64
-140            android:enabled="true"
-140-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:89:13-35
-141            android:exported="false" />
-141-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:90:13-37
-142
-143        <activity
-143-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:93:9-97:43
-144            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-144-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:94:13-82
-145            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-145-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:95:13-122
-146            android:exported="false" />
-146-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:96:13-37
-147        <activity
-147-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:98:9-105:43
-148            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
-148-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:99:13-82
-149            android:excludeFromRecents="true"
-149-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:100:13-46
-150            android:exported="false"
-150-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:101:13-37
-151            android:launchMode="singleTask"
-151-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:102:13-44
-152            android:taskAffinity=""
-152-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:103:13-36
-153            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-153-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:104:13-72
-154
-155        <property
-155-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:107:9-109:62
-156            android:name="android.adservices.AD_SERVICES_CONFIG"
-156-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:108:13-65
-157            android:resource="@xml/gma_ad_services_config" />
-157-->[com.google.android.gms:play-services-ads-lite:23.6.0] C:\Users\RYZEN\.gradle\caches\transforms-3\19042f368b600a43444d5b2c0454d4d2\transformed\play-services-ads-lite-23.6.0\AndroidManifest.xml:109:13-59
-158
-159        <activity
-159-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:19:9-23:75
-160            android:name="com.facebook.ads.AudienceNetworkActivity"
-160-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:20:13-68
-161            android:configChanges="keyboardHidden|orientation|screenSize"
-161-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:21:13-74
-162            android:exported="false"
-162-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:22:13-37
-163            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-163-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:23:13-72
-164
-165        <provider
-165-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:25:9-28:40
-166            android:name="com.facebook.ads.AudienceNetworkContentProvider"
-166-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:26:13-75
-167            android:authorities="com.manual.mediation.library.sotadlib.test.AudienceNetworkContentProvider"
-167-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:27:13-82
-168            android:exported="false" />
-168-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\6871bfb5570f9d62678344a897003d92\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:28:13-37
+66    <application
+66-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:7:5-9:19
+67        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+67-->[androidx.core:core:1.13.1] C:\Users\RYZEN\.gradle\caches\transforms-3\3e0b005d759a31e3d06bffcb23e6df79\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+68        android:debuggable="true"
+69        android:extractNativeLibs="false" >
+70        <uses-library android:name="android.test.runner" />
+70-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:8:9-60
+70-->F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest5662986957610415350.xml:8:23-57
+71
+72        <activity
+72-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-18:52
+73            android:name="com.manual.mediation.library.sotadlib.activities.LanguageScreenOne"
+73-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-94
+74            android:exported="false"
+74-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
+75            android:screenOrientation="portrait" />
+75-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-49
+76        <activity
+76-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-22:52
+77            android:name="com.manual.mediation.library.sotadlib.activities.LanguageScreenDup"
+77-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-94
+78            android:exported="false"
+78-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+79            android:screenOrientation="portrait" />
+79-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-49
+80        <activity
+80-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-26:52
+81            android:name="com.manual.mediation.library.sotadlib.activities.WelcomeScreenOne"
+81-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-93
+82            android:exported="true"
+82-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-36
+83            android:screenOrientation="portrait" />
+83-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-49
+84        <activity
+84-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-30:52
+85            android:name="com.manual.mediation.library.sotadlib.activities.WelcomeScreenDup"
+85-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-93
+86            android:exported="true"
+86-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-36
+87            android:screenOrientation="portrait" />
+87-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-49
+88        <activity
+88-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-34:52
+89            android:name="com.manual.mediation.library.sotadlib.activities.WalkThroughConfigActivity"
+89-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-102
+90            android:exported="true"
+90-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-36
+91            android:screenOrientation="portrait" />
+91-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-49
+92
+93        <meta-data
+93-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:9-38:57
+94            android:name="preloaded_fonts"
+94-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-43
+95            android:resource="@array/preloaded_fonts" />
+95-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-54
+96        <meta-data
+96-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:37
+97            android:name="com.google.android.gms.ads.flag.NATIVE_AD_DEBUGGER_ENABLED"
+97-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-86
+98            android:value="false" />
+98-->[:SOTAdLib] F:\Kalimullah_Dev\SOT-Ad-Lib\SOTAdLib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-34
+99
+100        <activity
+100-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20
+101            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+101-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:28:13-99
+102            android:exported="true"
+102-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:29:13-36
+103            android:theme="@style/WhiteBackgroundTheme" >
+103-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:30:13-56
+104            <intent-filter android:priority="-100" >
+104-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+104-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:32:17-77
+105-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:32:27-74
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:35:9-42:20
+109            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+109-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:36:13-95
+110            android:exported="true"
+110-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:37:13-36
+111            android:theme="@style/WhiteBackgroundTheme" >
+111-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:38:13-56
+112            <intent-filter android:priority="-100" >
+112-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+112-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+113                <category android:name="android.intent.category.LAUNCHER" />
+113-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:32:17-77
+113-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:32:27-74
+114            </intent-filter>
+115        </activity>
+116        <activity
+116-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:43:9-50:20
+117            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+117-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:44:13-103
+118            android:exported="true"
+118-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:45:13-36
+119            android:theme="@style/WhiteBackgroundDialogTheme" >
+119-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:46:13-62
+120            <intent-filter android:priority="-100" >
+120-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:31:13-33:29
+120-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:31:28-51
+121                <category android:name="android.intent.category.LAUNCHER" />
+121-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:32:17-77
+121-->[androidx.test:core:1.6.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9e333ca6e5b0e342af4025da2668a1c5\transformed\core-1.6.1\AndroidManifest.xml:32:27-74
+122            </intent-filter>
+123        </activity>
+124        <activity
+124-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a090a06eece0519b454de827bf22246\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:19:9-23:75
+125            android:name="com.facebook.ads.AudienceNetworkActivity"
+125-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a090a06eece0519b454de827bf22246\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:20:13-68
+126            android:configChanges="keyboardHidden|orientation|screenSize"
+126-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a090a06eece0519b454de827bf22246\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:21:13-74
+127            android:exported="false"
+127-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a090a06eece0519b454de827bf22246\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:22:13-37
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a090a06eece0519b454de827bf22246\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:23:13-72
+129
+130        <provider
+130-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a090a06eece0519b454de827bf22246\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:25:9-28:40
+131            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+131-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a090a06eece0519b454de827bf22246\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:26:13-75
+132            android:authorities="com.manual.mediation.library.sotadlib.test.AudienceNetworkContentProvider"
+132-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a090a06eece0519b454de827bf22246\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:27:13-82
+133            android:exported="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+133-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\RYZEN\.gradle\caches\transforms-3\3a090a06eece0519b454de827bf22246\transformed\audience-network-sdk-6.11.0\AndroidManifest.xml:28:13-37
+134        <activity
+134-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:73:9-78:43
+135            android:name="com.google.android.gms.ads.AdActivity"
+135-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:74:13-65
+136            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+136-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:75:13-122
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:76:13-37
+138            android:theme="@android:style/Theme.Translucent" />
+138-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:77:13-61
+139
+140        <provider
+140-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:80:9-85:43
+141            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+141-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:81:13-76
+142            android:authorities="com.manual.mediation.library.sotadlib.test.mobileadsinitprovider"
+142-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:82:13-73
+143            android:exported="false"
+143-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:83:13-37
+144            android:initOrder="100" />
+144-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:84:13-36
+145
+146        <service
+146-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:87:9-91:43
+147            android:name="com.google.android.gms.ads.AdService"
+147-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:88:13-64
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:89:13-35
+149            android:exported="false" />
+149-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:90:13-37
+150
+151        <activity
+151-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:93:9-97:43
+152            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+152-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:94:13-82
+153            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+153-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:95:13-122
+154            android:exported="false" />
+154-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:96:13-37
+155        <activity
+155-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:98:9-105:43
+156            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+156-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:99:13-82
+157            android:excludeFromRecents="true"
+157-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:100:13-46
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:101:13-37
+159            android:launchMode="singleTask"
+159-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:102:13-44
+160            android:taskAffinity=""
+160-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:103:13-36
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:104:13-72
+162
+163        <meta-data
+163-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:107:9-109:36
+164            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+164-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:108:13-79
+165            android:value="true" />
+165-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:109:13-33
+166        <meta-data
+166-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:110:9-112:36
+167            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+167-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:111:13-83
+168            android:value="true" />
+168-->[com.google.android.gms:play-services-ads-api:24.2.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0aea82867fb208daf254d31ee5002a2e\transformed\play-services-ads-api-24.2.0\AndroidManifest.xml:112:13-33
 169
 170        <activity
-170-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+170-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\8890c0d0ef5fadbc6c52b68bc7995cec\transformed\play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
 171            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-171-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+171-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\8890c0d0ef5fadbc6c52b68bc7995cec\transformed\play-services-base-18.0.0\AndroidManifest.xml:20:19-85
 172            android:exported="false"
-172-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+172-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\8890c0d0ef5fadbc6c52b68bc7995cec\transformed\play-services-base-18.0.0\AndroidManifest.xml:22:19-43
 173            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-173-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\aef01a46e7116214bb1274c1f0538286\transformed\play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+173-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\8890c0d0ef5fadbc6c52b68bc7995cec\transformed\play-services-base-18.0.0\AndroidManifest.xml:21:19-78
 174
 175        <meta-data
-175-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4242b8b28ab7df0a9999c7a4690a4504\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+175-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c83ec3f03584b299070b38774b4f9763\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
 176            android:name="com.google.android.gms.version"
-176-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4242b8b28ab7df0a9999c7a4690a4504\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+176-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c83ec3f03584b299070b38774b4f9763\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
 177            android:value="@integer/google_play_services_version" />
-177-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\4242b8b28ab7df0a9999c7a4690a4504\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+177-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c83ec3f03584b299070b38774b4f9763\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
 178
 179        <provider
-179-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+179-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\9a16e98e1e695c375f81d6ced33af2eb\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 180            android:name="androidx.startup.InitializationProvider"
-180-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+180-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\9a16e98e1e695c375f81d6ced33af2eb\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
 181            android:authorities="com.manual.mediation.library.sotadlib.test.androidx-startup"
-181-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+181-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\9a16e98e1e695c375f81d6ced33af2eb\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
 182            android:exported="false" >
-182-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+182-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\9a16e98e1e695c375f81d6ced33af2eb\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
 183            <meta-data
-183-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+183-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\9a16e98e1e695c375f81d6ced33af2eb\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
 184                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-184-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+184-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\9a16e98e1e695c375f81d6ced33af2eb\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
 185                android:value="androidx.startup" />
-185-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\18b9c989f1caa7e507fd5a6fb52c955c\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+185-->[androidx.emoji2:emoji2:1.3.0] C:\Users\RYZEN\.gradle\caches\transforms-3\9a16e98e1e695c375f81d6ced33af2eb\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
 186            <meta-data
-186-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+186-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
 187                android:name="androidx.work.WorkManagerInitializer"
-187-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+187-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
 188                android:value="androidx.startup" />
-188-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+188-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
 189            <meta-data
-189-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+189-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\86b54abd9985d0f4858e87f7e76621a2\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
 190                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-190-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+190-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\86b54abd9985d0f4858e87f7e76621a2\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
 191                android:value="androidx.startup" />
-191-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\7f895bf1ec02a938e666765296818b4c\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+191-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\RYZEN\.gradle\caches\transforms-3\86b54abd9985d0f4858e87f7e76621a2\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
 192            <meta-data
-192-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+192-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
 193                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-193-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+193-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
 194                android:value="androidx.startup" />
-194-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+194-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
 195        </provider>
 196
 197        <service
-197-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+197-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
 198            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-198-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+198-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
 199            android:directBootAware="false"
-199-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+199-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
 200            android:enabled="@bool/enable_system_alarm_service_default"
-200-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+200-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
 201            android:exported="false" />
-201-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+201-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
 202        <service
-202-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+202-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
 203            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-203-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+203-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
 204            android:directBootAware="false"
-204-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+204-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
 205            android:enabled="@bool/enable_system_job_service_default"
-205-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+205-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
 206            android:exported="true"
-206-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+206-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
 207            android:permission="android.permission.BIND_JOB_SERVICE" />
-207-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+207-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
 208        <service
-208-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+208-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
 209            android:name="androidx.work.impl.foreground.SystemForegroundService"
-209-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+209-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
 210            android:directBootAware="false"
-210-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+210-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
 211            android:enabled="@bool/enable_system_foreground_service_default"
-211-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+211-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
 212            android:exported="false" />
-212-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+212-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
 213
 214        <receiver
-214-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+214-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
 215            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-215-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+215-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
 216            android:directBootAware="false"
-216-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+216-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
 217            android:enabled="true"
-217-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+217-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
 218            android:exported="false" />
-218-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+218-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
 219        <receiver
-219-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+219-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
 220            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-220-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+220-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
 221            android:directBootAware="false"
-221-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+221-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
 222            android:enabled="false"
-222-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+222-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
 223            android:exported="false" >
-223-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+223-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
 224            <intent-filter>
-224-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+224-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
 225                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-225-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
-225-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+225-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+225-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
 226                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-226-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
-226-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+226-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+226-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
 227            </intent-filter>
 228        </receiver>
 229        <receiver
-229-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+229-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
 230            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-230-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+230-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
 231            android:directBootAware="false"
-231-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+231-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
 232            android:enabled="false"
-232-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+232-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
 233            android:exported="false" >
-233-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+233-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
 234            <intent-filter>
-234-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+234-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
 235                <action android:name="android.intent.action.BATTERY_OKAY" />
-235-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
-235-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+235-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+235-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
 236                <action android:name="android.intent.action.BATTERY_LOW" />
-236-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
-236-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+236-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+236-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
 237            </intent-filter>
 238        </receiver>
 239        <receiver
-239-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+239-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
 240            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-240-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+240-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
 241            android:directBootAware="false"
-241-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+241-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
 242            android:enabled="false"
-242-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+242-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
 243            android:exported="false" >
-243-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+243-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
 244            <intent-filter>
-244-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+244-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
 245                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-245-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
-245-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+245-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+245-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
 246                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-246-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
-246-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+246-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+246-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
 247            </intent-filter>
 248        </receiver>
 249        <receiver
-249-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+249-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
 250            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-250-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+250-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
 251            android:directBootAware="false"
-251-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+251-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
 252            android:enabled="false"
-252-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+252-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
 253            android:exported="false" >
-253-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+253-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
 254            <intent-filter>
-254-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+254-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
 255                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-255-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
-255-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+255-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+255-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
 256            </intent-filter>
 257        </receiver>
 258        <receiver
-258-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+258-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
 259            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-259-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+259-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
 260            android:directBootAware="false"
-260-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+260-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
 261            android:enabled="false"
-261-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+261-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
 262            android:exported="false" >
-262-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+262-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
 263            <intent-filter>
-263-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+263-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
 264                <action android:name="android.intent.action.BOOT_COMPLETED" />
-264-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
-264-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+264-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+264-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
 265                <action android:name="android.intent.action.TIME_SET" />
-265-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
-265-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+265-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+265-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
 266                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-266-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
-266-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+266-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+266-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
 267            </intent-filter>
 268        </receiver>
 269        <receiver
-269-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+269-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
 270            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-270-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+270-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
 271            android:directBootAware="false"
-271-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+271-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
 272            android:enabled="@bool/enable_system_alarm_service_default"
-272-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+272-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
 273            android:exported="false" >
-273-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+273-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
 274            <intent-filter>
-274-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+274-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
 275                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-275-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
-275-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+275-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+275-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
 276            </intent-filter>
 277        </receiver>
 278        <receiver
-278-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+278-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
 279            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-279-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+279-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
 280            android:directBootAware="false"
-280-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+280-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
 281            android:enabled="true"
-281-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+281-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
 282            android:exported="true"
-282-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+282-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
 283            android:permission="android.permission.DUMP" >
-283-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+283-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
 284            <intent-filter>
-284-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+284-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
 285                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-285-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
-285-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\648e46d6fee8d6af4e31d85be323951c\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+285-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+285-->[androidx.work:work-runtime:2.7.0] C:\Users\RYZEN\.gradle\caches\transforms-3\d495deacd1e85a481654541cb7eb7a73\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
 286            </intent-filter>
 287        </receiver>
 288
 289        <uses-library
-289-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\118b18701b0fa7bc3424ea9d9cc0b551\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+289-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\fab7aff3696601450d487ec05c92b639\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
 290            android:name="android.ext.adservices"
-290-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\118b18701b0fa7bc3424ea9d9cc0b551\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+290-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\fab7aff3696601450d487ec05c92b639\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
 291            android:required="false" />
-291-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\118b18701b0fa7bc3424ea9d9cc0b551\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+291-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\RYZEN\.gradle\caches\transforms-3\fab7aff3696601450d487ec05c92b639\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
 292        <uses-library
-292-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+292-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\085b31d93ba35ca400be91a5828c5e62\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 293            android:name="androidx.window.extensions"
-293-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+293-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\085b31d93ba35ca400be91a5828c5e62\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 294            android:required="false" />
-294-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+294-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\085b31d93ba35ca400be91a5828c5e62\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 295        <uses-library
-295-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+295-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\085b31d93ba35ca400be91a5828c5e62\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 296            android:name="androidx.window.sidecar"
-296-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+296-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\085b31d93ba35ca400be91a5828c5e62\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 297            android:required="false" />
-297-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\c164485e0640299bda4cfac474b8dd0a\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+297-->[androidx.window:window:1.0.0] C:\Users\RYZEN\.gradle\caches\transforms-3\085b31d93ba35ca400be91a5828c5e62\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 298
 299        <receiver
-299-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+299-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
 300            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-300-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+300-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
 301            android:directBootAware="false"
-301-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+301-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
 302            android:enabled="true"
-302-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+302-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
 303            android:exported="true"
-303-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+303-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
 304            android:permission="android.permission.DUMP" >
-304-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+304-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
 305            <intent-filter>
-305-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+305-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
 306                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-306-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-306-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+306-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+306-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
 307            </intent-filter>
 308            <intent-filter>
-308-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+308-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
 309                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-309-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-309-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+309-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+309-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
 310            </intent-filter>
 311            <intent-filter>
-311-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+311-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
 312                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-312-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-312-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+312-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+312-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
 313            </intent-filter>
 314            <intent-filter>
-314-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+314-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
 315                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-315-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-315-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\RYZEN\.gradle\caches\transforms-3\9679e7c7531200d021faa2e73cb38aa8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+315-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+315-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\RYZEN\.gradle\caches\transforms-3\0c4ef60365edf789ce153f0df391cc45\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
 316            </intent-filter>
 317        </receiver>
 318
 319        <service
-319-->[androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+319-->[androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\ccbec0fea083bef37b77ca5e86026bd0\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
 320            android:name="androidx.room.MultiInstanceInvalidationService"
-320-->[androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+320-->[androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\ccbec0fea083bef37b77ca5e86026bd0\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
 321            android:directBootAware="true"
-321-->[androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+321-->[androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\ccbec0fea083bef37b77ca5e86026bd0\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
 322            android:exported="false" />
-322-->[androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\0d08f965965b216d3643e8820ce4e3fe\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+322-->[androidx.room:room-runtime:2.2.5] C:\Users\RYZEN\.gradle\caches\transforms-3\ccbec0fea083bef37b77ca5e86026bd0\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
 323    </application>
 324
 325</manifest>
