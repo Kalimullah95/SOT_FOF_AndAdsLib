@@ -1,7 +1,6 @@
 package com.manual.mediation.library.sotadlib.utils
 
 import android.app.Activity
-import android.content.Context
 import android.util.Log
 import com.manual.mediation.library.sotadlib.interfaces.CommonEventTracker
 
