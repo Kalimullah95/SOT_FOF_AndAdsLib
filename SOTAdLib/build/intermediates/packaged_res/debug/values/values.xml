@@ -19,6 +19,7 @@
     </array>
     <color name="White">#FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="blue">#0072D1</color>
     <color name="lightTransparent">#16000000</color>
     <color name="lightTransparent_F">#000000</color>
     <color name="orangeLib">#FF5722</color>
