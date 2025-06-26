@@ -106,13 +106,13 @@ class WTTwoFragment : Fragment() {
             }
         }
 
-        binding.txtHeading.setTextColor( ContextCompat.getColor(requireContext(),item.headingColor))
+        binding.txtHeading.setTextColor(ContextCompat.getColor(requireContext(),item.headingColor))
         binding.txtDescription.setTextColor(ContextCompat.getColor(requireContext(),item.descriptionColor))
         binding.btnNext.setTextColor(ContextCompat.getColor(requireContext(),item.nextColor))
 
         binding.txtHeading.text = item.heading
         binding.txtDescription.text = item.description
-        binding.root.setBackgroundColor(item.viewBackgroundColor)
+        binding.root.setBackgroundColor(ContextCompat.getColor(requireContext(),item.viewBackgroundColor))
 
         if (!NetworkCheck.isNetworkAvailable(context)) {
             binding.glOne.setGuidelinePercent(0.8f)
