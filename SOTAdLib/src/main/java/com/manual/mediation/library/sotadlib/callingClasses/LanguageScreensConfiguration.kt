@@ -98,6 +98,7 @@ class LanguageScreensConfiguration private constructor() {
             languageScreensConfiguration.statusBarColor = statusBarColor!!
             languageScreensConfiguration.fontColor = fontColor!!
             languageScreensConfiguration.headingColor = headingColor!!
+            languageScreensConfiguration.tickSelector = tickSelector!!
             languageScreensConfiguration.eventTracker = eventTracker
             languageInstance = languageScreensConfiguration
             return languageScreensConfiguration
