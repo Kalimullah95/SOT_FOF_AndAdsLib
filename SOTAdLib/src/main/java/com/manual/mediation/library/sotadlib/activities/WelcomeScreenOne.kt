@@ -24,7 +24,7 @@ import com.manual.mediation.library.sotadlib.utils.setStatusBarColor
 class WelcomeScreenOne : AppCompatBaseActivity(), WelcomeInterface {
 
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
-    var myView: View? = null
+    private var myView: View? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
