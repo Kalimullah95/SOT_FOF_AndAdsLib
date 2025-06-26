@@ -57,7 +57,7 @@ class LanguageScreenDup: AppCompatBaseActivity() {
                 findViewById<TextView>(R.id.txtAllLanguages).setTextColor(it)
             }
             config.tickSelector?.let {
-                findViewById<AppCompatImageView>(R.id.imvDone).setBackgroundDrawable(it)
+                findViewById<AppCompatImageView>(R.id.imvDone).setImageDrawable(it)
             }
             config.theme?.let {
                 val rootView = findViewById<View>(R.id.root_view)
