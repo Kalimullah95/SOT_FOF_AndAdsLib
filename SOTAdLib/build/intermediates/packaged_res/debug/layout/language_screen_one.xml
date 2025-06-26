@@ -34,7 +34,7 @@
             android:id="@+id/imvDone"
             android:layout_width="@dimen/_40sdp"
             android:layout_height="0dp"
-            android:padding="@dimen/_5sdp"
+            android:padding="@dimen/_4sdp"
             android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="@+id/txtSelectKeyboard"
             app:layout_constraintEnd_toEndOf="parent"
