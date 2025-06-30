@@ -74,15 +74,18 @@ class WTFullScreenAdFragment : Fragment() {
         super.onResume()
         binding.ivClose.visibility = View.GONE
         handler = Handler(Looper.getMainLooper())
-        val myTime = 1000 * (sotAdsConfigurations?.getRemoteConfigData()?.get("TIMER_NATIVE_F_SRC")
-            .toString().toLong() as? Long ?: 3)
+
+        val myTimeStr = sotAdsConfigurations?.getRemoteConfigData()?.get("TIMER_NATIVE_F_SRC")?.toString()
+        val myTime = (myTimeStr?.toLongOrNull() ?: 3L) * 1000
+
         if (myTime in 1000..10000) {
             handler?.postDelayed(showCloseButtonRunnable, myTime)
         } else {
             binding.ivClose.visibility = View.GONE
         }
 
-        val nativeWalkThroughFullScrEnabled = sotAdsConfigurations?.getRemoteConfigData()?.get("NATIVE_WALKTHROUGH_FULLSCR") as? Boolean ?: false
+        val nativeWalkThroughFullScrEnabled =
+            sotAdsConfigurations?.getRemoteConfigData()?.get("NATIVE_WALKTHROUGH_FULLSCR") as? Boolean ?: false
         if (nativeWalkThroughFullScrEnabled) {
             binding.shimmerLayoutF.root.visibility = View.VISIBLE
             showAdmobWTFullNatives()
