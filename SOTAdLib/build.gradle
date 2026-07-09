@@ -1,0 +1,71 @@
+plugins {
+    alias(libs.plugins.android.library)
+    alias(libs.plugins.jetbrains.kotlin.android)
+    id("kotlin-parcelize")
+    id("maven-publish")
+}
+
+android {
+    namespace 'com.manual.mediation.library.sotadlib'
+    compileSdk 36
+    defaultConfig {
+        minSdk 23
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+
+    }
+    buildFeatures{
+        buildConfig = true
+        viewBinding = true
+    }
+}
+
+dependencies {
+
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.material
+    implementation libs.androidx.activity
+    implementation libs.androidx.constraintlayout
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.espresso.core
+    implementation libs.ssp.android
+    implementation libs.sdp.android
+    implementation libs.lottie
+    implementation libs.play.services.ads
+    implementation 'androidx.lifecycle:lifecycle-process:2.9.4'
+    implementation 'com.facebook.android:audience-network-sdk:6.21.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.9.6'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.9.6'
+    implementation 'com.github.bumptech.glide:glide:5.0.5'
+    implementation libs.shimmer
+
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.Kalimullah95'
+                artifactId = 'SOT_FOF_AndAdsLib'
+                version = '1.0'
+            }
+        }
+    }
+}

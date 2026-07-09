@@ -1,0 +1,7 @@
+build/
+**/build/
+.gradle/
+.idea/caches/
+*.apk
+*.aar
+local.propertiesgit add .
