@@ -1,5 +1,6 @@
 package com.manual.mediation.library.sotadlib.activities
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -32,12 +33,16 @@ class WTThreeFragment : Fragment() {
     private lateinit var item: WalkThroughItem
     private var eventTracker: CommonEventTracker? = null
     private var adShown = false
-    private var scaleType :Int = 0
+    private var scaleType: Int = 0
     private var blurVisibility: Boolean = false
+
     companion object {
         private const val ARG_ITEM = "walkThroughItem"
 
-        fun newInstance(item: WalkThroughItem, tracker: CommonEventTracker? = null): WTThreeFragment {
+        fun newInstance(
+            item: WalkThroughItem,
+            tracker: CommonEventTracker? = null
+        ): WTThreeFragment {
             return WTThreeFragment().apply {
                 arguments = Bundle().apply {
                     putParcelable(ARG_ITEM, item)
@@ -63,11 +68,10 @@ class WTThreeFragment : Fragment() {
     ): View {
         _binding = FragmentWTThreeBinding.inflate(inflater, container, false)
         binding.blure.visibility = if (blurVisibility) View.VISIBLE else View.GONE
-        if (scaleType == 0){
+        if (scaleType == 0) {
             binding.main.visibility = View.GONE
             binding.mainCopy.visibility = View.VISIBLE
-        }
-        else{
+        } else {
             binding.main.visibility = View.VISIBLE
             binding.mainCopy.visibility = View.GONE
         }
@@ -81,8 +85,10 @@ class WTThreeFragment : Fragment() {
 
         Log.i("SOTStartTestActivity", "walkthrough3_scr")
         val interstitialLetsStartEnabled =
-            (sotAdsConfigurations?.getRemoteConfigData()?.get("INTERSTITIAL_LETS_START") as? Boolean ?: false) &&
-                    (sotAdsConfigurations?.getRemoteConfigData()?.get("IS_PURCHASED") as? Boolean == false)
+            (sotAdsConfigurations?.getRemoteConfigData()?.get("INTERSTITIAL_LETS_START") as? Boolean
+                ?: false) &&
+                    (sotAdsConfigurations?.getRemoteConfigData()
+                        ?.get("IS_PURCHASED") as? Boolean == false)
 
         if (interstitialLetsStartEnabled) {
             loadAdmobWTThreeInterstitial()
@@ -98,24 +104,24 @@ class WTThreeFragment : Fragment() {
             withContext(Dispatchers.Main) {
                 context?.let {
 
-                        val targetImageView = if (scaleType == 0) {
-                            binding.main.visibility = View.GONE
-                            binding.mainCopy.visibility = View.VISIBLE
-                            binding.mainCopy
-                        } else {
-                            binding.main.visibility = View.VISIBLE
-                            binding.mainCopy.visibility = View.GONE
-                            binding.main
-                        }
+                    val targetImageView = if (scaleType == 0) {
+                        binding.main.visibility = View.GONE
+                        binding.mainCopy.visibility = View.VISIBLE
+                        binding.mainCopy
+                    } else {
+                        binding.main.visibility = View.VISIBLE
+                        binding.mainCopy.visibility = View.GONE
+                        binding.main
+                    }
 
-                        // Load image into the visible ImageView
-                        withContext(Dispatchers.Main) {
-                            Glide.with(requireActivity())
-                                .load(item.drawableResId)
-                                .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
-                                .skipMemoryCache(true)
-                                .into(targetImageView)
-                        }
+                    // Load image into the visible ImageView
+                    withContext(Dispatchers.Main) {
+                        Glide.with(requireActivity())
+                            .load(item.drawableResId)
+                            .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
+                            .skipMemoryCache(true)
+                            .into(targetImageView)
+                    }
 
 
                     Glide.with(it)
@@ -128,12 +134,29 @@ class WTThreeFragment : Fragment() {
         }
     }
 
+    @SuppressLint("UseCompatLoadingForDrawables")
     private fun setupTextViews() {
         context?.let {
-            binding.txtHeading.setTextColor(ContextCompat.getColor(requireContext(),item.headingColor))
-            binding.txtDescription.setTextColor(ContextCompat.getColor(requireContext(),item.descriptionColor))
-            binding.btnNext.setTextColor(ContextCompat.getColor(requireContext(),item.nextColor))
-            binding.root.setBackgroundColor(ContextCompat.getColor(requireContext(),item.viewBackgroundColor))
+            binding.txtHeading.setTextColor(
+                ContextCompat.getColor(
+                    requireContext(),
+                    item.headingColor
+                )
+            )
+            binding.txtDescription.setTextColor(
+                ContextCompat.getColor(
+                    requireContext(),
+                    item.descriptionColor
+                )
+            )
+            binding.btnNext.setTextColor(ContextCompat.getColor(requireContext(), item.nextColor))
+            binding.btnNext.background = resources.getDrawable(item.nextBackground)
+            binding.root.setBackgroundColor(
+                ContextCompat.getColor(
+                    requireContext(),
+                    item.viewBackgroundColor
+                )
+            )
         }
 
         binding.txtHeading.text = item.heading
@@ -143,7 +166,10 @@ class WTThreeFragment : Fragment() {
     private fun setupButton() {
         binding.btnNext.setOnClickListener {
             eventTracker?.logEvent(requireActivity(), "walkthrough3_scr_tap_start")
-            if (sotAdsConfigurations?.getRemoteConfigData()?.get("INTERSTITIAL_LETS_START") as? Boolean == true && sotAdsConfigurations?.getRemoteConfigData()?.get("IS_PURCHASED") as? Boolean == false) {
+            if (sotAdsConfigurations?.getRemoteConfigData()
+                    ?.get("INTERSTITIAL_LETS_START") as? Boolean == true && sotAdsConfigurations?.getRemoteConfigData()
+                    ?.get("IS_PURCHASED") as? Boolean == false
+            ) {
                 safeShowAdmobWTThreeInterstitial()
             } else {
                 safeLetsStartClick()
@@ -160,10 +186,11 @@ class WTThreeFragment : Fragment() {
             AdMobInterstitialInside.showIfAvailableOrLoadAdMobInterstitial(
                 context = requireActivity(),
                 nameFragment = "WALKTHROUGH_3",
-                adId = sotAdsConfigurations?.firstOpenFlowAdIds?.getValue("ADMOB_INTERSTITIAL_LETS_START") ?: "",
+                adId = sotAdsConfigurations?.firstOpenFlowAdIds?.getValue("ADMOB_INTERSTITIAL_LETS_START")
+                    ?: "",
                 onAdClosedCallBackAdmob = {
                     Log.i("SOT_ADS_TAG", "Interstitial: WALKTHROUGH_3: onAdClosedCallBackAdmob()")
-                   // delay(300)
+                    // delay(300)
                     if (isAdded) {
                         safeLetsStartClick()
                     }
@@ -193,7 +220,10 @@ class WTThreeFragment : Fragment() {
             return
         }
 
-        if ((sotAdsConfigurations?.getRemoteConfigData()?.get("NATIVE_WALKTHROUGH_3") as? Boolean == true) && (sotAdsConfigurations?.getRemoteConfigData()?.get("IS_PURCHASED") as? Boolean == false)) {
+        if ((sotAdsConfigurations?.getRemoteConfigData()
+                ?.get("NATIVE_WALKTHROUGH_3") as? Boolean == true) && (sotAdsConfigurations?.getRemoteConfigData()
+                ?.get("IS_PURCHASED") as? Boolean == false)
+        ) {
             safeShowAdmobWTThreeNatives()
         } else {
             binding.nativeAdContainerAd.visibility = View.GONE
@@ -203,35 +233,36 @@ class WTThreeFragment : Fragment() {
     private fun safeShowAdmobWTThreeNatives() {
         if (!isAdded || activity == null) return
 
-        sotAdsConfigurations?.firstOpenFlowAdIds?.getValue("ADMOB_NATIVE_WALKTHROUGH_3")?.let { adId ->
-            AdmobNativeAdManager.requestAd(
-                mContext = requireActivity(),
-                adId = adId,
-                adName = "WALKTHROUGH_3",
-                isMedia = true,
-                isMediumAd = true,
-                remoteConfig = sotAdsConfigurations
-                    ?.getRemoteConfigData()
-                    ?.getValue("NATIVE_WALKTHROUGH_3")
-                    .toString()
-                    .toBoolean(),
-                populateView = true,
-                requestAgain = false,
-                adContainer = binding.nativeAdContainerAd,
-                onAdFailed = {
-                    if (isAdded) {
-                        binding.nativeAdContainerAd.visibility = View.GONE
+        sotAdsConfigurations?.firstOpenFlowAdIds?.getValue("ADMOB_NATIVE_WALKTHROUGH_3")
+            ?.let { adId ->
+                AdmobNativeAdManager.requestAd(
+                    mContext = requireActivity(),
+                    adId = adId,
+                    adName = "WALKTHROUGH_3",
+                    isMedia = true,
+                    isMediumAd = true,
+                    remoteConfig = sotAdsConfigurations
+                        ?.getRemoteConfigData()
+                        ?.getValue("NATIVE_WALKTHROUGH_3")
+                        .toString()
+                        .toBoolean(),
+                    populateView = true,
+                    requestAgain = false,
+                    adContainer = binding.nativeAdContainerAd,
+                    onAdFailed = {
+                        if (isAdded) {
+                            binding.nativeAdContainerAd.visibility = View.GONE
+                        }
+                        Log.i("SOT_ADS_TAG", "WALKTHROUGH_3: Admob: onAdFailed()")
+                    },
+                    onAdLoaded = {
+                        if (isAdded) {
+                            binding.nativeAdContainerAd.visibility = View.VISIBLE
+                        }
+                        Log.i("SOT_ADS_TAG", "WALKTHROUGH_3: Admob: onAdLoaded()")
                     }
-                    Log.i("SOT_ADS_TAG", "WALKTHROUGH_3: Admob: onAdFailed()")
-                },
-                onAdLoaded = {
-                    if (isAdded) {
-                        binding.nativeAdContainerAd.visibility = View.VISIBLE
-                    }
-                    Log.i("SOT_ADS_TAG", "WALKTHROUGH_3: Admob: onAdLoaded()")
-                }
-            )
-        }
+                )
+            }
     }
 
     override fun onDestroyView() {
@@ -240,18 +271,19 @@ class WTThreeFragment : Fragment() {
     }
 
     private fun loadAdmobWTThreeInterstitial() {
-        val adId = sotAdsConfigurations?.firstOpenFlowAdIds?.getValue("ADMOB_INTERSTITIAL_LETS_START")
+        val adId =
+            sotAdsConfigurations?.firstOpenFlowAdIds?.getValue("ADMOB_INTERSTITIAL_LETS_START")
         if (adId != null) {
             AdMobInterstitialInside.checkAndLoadAdMobInterstitial(
                 context = requireActivity(),
                 nameFragment = "WALKTHROUGH_3",
                 adId = adId,
                 onAdLoadedCallAdmob = {
-                    Log.i("SOT_ADS_TAG","Admob: Interstitial : WALKTHROUGH_3 : adLoaded()")
+                    Log.i("SOT_ADS_TAG", "Admob: Interstitial : WALKTHROUGH_3 : adLoaded()")
                 }
             )
         } else {
-            Log.e("SOT_ADS_TAG","Admob: Interstitial ad ID not found for WALKTHROUGH_3")
+            Log.e("SOT_ADS_TAG", "Admob: Interstitial ad ID not found for WALKTHROUGH_3")
         }
     }
 }

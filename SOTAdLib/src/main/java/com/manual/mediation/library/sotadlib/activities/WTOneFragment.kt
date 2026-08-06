@@ -121,6 +121,7 @@ class WTOneFragment : Fragment() {
         binding.txtHeading.setTextColor( ContextCompat.getColor(requireContext(),item.headingColor))
         binding.txtDescription.setTextColor(ContextCompat.getColor(requireContext(), item.descriptionColor))
         binding.btnNext.setTextColor(ContextCompat.getColor(requireContext(), item.nextColor))
+        binding.btnNext.background=resources.getDrawable(item.nextBackground)
         binding.root.setBackgroundColor(ContextCompat.getColor(requireContext(),item.viewBackgroundColor))
 
         binding.txtHeading.text = item.heading

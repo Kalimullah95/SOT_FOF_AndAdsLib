@@ -1,5 +1,6 @@
 package com.manual.mediation.library.sotadlib.activities
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -74,6 +75,7 @@ class WTTwoFragment : Fragment() {
         return binding.root
     }
 
+    @SuppressLint("UseCompatLoadingForDrawables")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         sotAdsConfigurations = SOTAdsManager.getConfigurations()
@@ -112,9 +114,10 @@ class WTTwoFragment : Fragment() {
         binding.txtHeading.setTextColor(ContextCompat.getColor(requireContext(),item.headingColor))
         binding.txtDescription.setTextColor(ContextCompat.getColor(requireContext(),item.descriptionColor))
         binding.btnNext.setTextColor(ContextCompat.getColor(requireContext(),item.nextColor))
-
+        binding.btnNext.background = resources.getDrawable(item.nextBackground)
         binding.txtHeading.text = item.heading
         binding.txtDescription.text = item.description
+
         binding.root.setBackgroundColor(ContextCompat.getColor(requireContext(),item.viewBackgroundColor))
 
         if (!NetworkCheck.isNetworkAvailable(context)) {
