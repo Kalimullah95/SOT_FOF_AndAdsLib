@@ -6,6 +6,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.Drawable
 import android.util.Log
+import androidx.core.graphics.drawable.DrawableCompat
 import com.airbnb.lottie.model.Font
 import com.manual.mediation.library.sotadlib.activities.LanguageScreenOne
 import com.manual.mediation.library.sotadlib.data.Language
@@ -67,17 +68,43 @@ class LanguageScreensConfiguration private constructor() {
             this.activity = myActivity
         }
         fun setEventTracker(tracker: CommonEventTracker) = apply { this.eventTracker = tracker }
-        fun setDrawableColors(selectedDrawable: Drawable, unSelectedDrawable: Drawable, selectedRadio: Drawable, unSelectedRadio: Drawable,tickSelector:Drawable,themeColor:Int,statusBarColor:Int,font: Int,headingColor:Int) = apply {
-            this.selectedDrawable = selectedDrawable
-            this.unSelectedDrawable = unSelectedDrawable
-            this.selectedRadio = selectedRadio
-            this.unSelectedRadio = unSelectedRadio
-            this.tickSelector = tickSelector
-            this.fontColor = font
-            this.theme = themeColor
-            this.statusBarColor = statusBarColor
-            this.headingColor = headingColor
-        }
+//        fun setDrawableColors(selectedDrawable: Drawable, unSelectedDrawable: Drawable, selectedRadio: Drawable, unSelectedRadio: Drawable,tickSelector:Drawable,themeColor:Int,statusBarColor:Int,font: Int,headingColor:Int) = apply {
+//            this.selectedDrawable = selectedDrawable
+//            this.unSelectedDrawable = unSelectedDrawable
+//            this.selectedRadio = selectedRadio
+//            this.unSelectedRadio = unSelectedRadio
+//            this.tickSelector = tickSelector
+//            this.fontColor = font
+//            this.theme = themeColor
+//            this.statusBarColor = statusBarColor
+//            this.headingColor = headingColor
+//        }
+fun setDrawableColors(
+    selectedDrawable: Drawable,
+    unSelectedDrawable: Drawable,
+    selectedRadio: Drawable,
+    unSelectedRadio: Drawable,
+    tickSelector: Drawable,
+    themeColor: Int,
+    statusBarColor: Int,
+    font: Int,
+    headingColor: Int
+) = apply {
+    this.selectedDrawable = selectedDrawable
+    this.unSelectedDrawable = unSelectedDrawable
+    this.selectedRadio = selectedRadio
+    this.unSelectedRadio = unSelectedRadio
+
+    // 👈 Wrap, mutate, and apply the tint
+    val wrappedTick = DrawableCompat.wrap(tickSelector).mutate()
+    DrawableCompat.setTint(wrappedTick, tickTintColor)
+    this.tickSelector = wrappedTick
+
+    this.fontColor = font
+    this.theme = themeColor
+    this.statusBarColor = statusBarColor
+    this.headingColor = headingColor
+}
 
         fun setLanguages(languageList: ArrayList<Language>) = apply {
             this.languageList = languageList
