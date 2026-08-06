@@ -95,10 +95,7 @@ fun setDrawableColors(
     this.selectedRadio = selectedRadio
     this.unSelectedRadio = unSelectedRadio
 
-    // 👈 Wrap, mutate, and apply the tint
-    val wrappedTick = DrawableCompat.wrap(tickSelector).mutate()
-    DrawableCompat.setTint(wrappedTick, tickTintColor)
-    this.tickSelector = wrappedTick
+
 
     this.fontColor = font
     this.theme = themeColor
