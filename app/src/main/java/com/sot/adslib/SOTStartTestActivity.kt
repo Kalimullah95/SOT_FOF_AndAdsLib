@@ -392,9 +392,6 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
     }
 
 
-
-
-
     private fun getWalkThroughList(context: Context): ArrayList<WalkThroughItem> {
         val localizedContext = ContextWrapper(context).createConfigurationContext(
             resources.configuration.apply { MyLocaleHelper.onAttach(context, "en") }
@@ -406,6 +403,7 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 headingColor = com.manual.mediation.library.sotadlib.R.color.redLib,
                 descriptionColor = com.manual.mediation.library.sotadlib.R.color.yellowLib,
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
+                nextBackground = com.manual.mediation.library.sotadlib.R.drawable.done_btn,
                 drawableResId = com.manual.mediation.library.sotadlib.R.drawable.ic_wt_1,
                 drawableBubbleResId = R.drawable.ic_launcher_foreground,
                 viewBackgroundColor = R.color.white,
@@ -418,6 +416,7 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 headingColor = com.manual.mediation.library.sotadlib.R.color.redLib,
                 descriptionColor = com.manual.mediation.library.sotadlib.R.color.yellowLib,
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
+                nextBackground = com.manual.mediation.library.sotadlib.R.drawable.done_btn,
                 drawableResId = com.manual.mediation.library.sotadlib.R.drawable.ic_wt_1,
                 drawableBubbleResId = R.drawable.ic_launcher_foreground,
                 viewBackgroundColor = R.color.white,
@@ -429,6 +428,7 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                 headingColor = com.manual.mediation.library.sotadlib.R.color.redLib,
                 descriptionColor = com.manual.mediation.library.sotadlib.R.color.yellowLib,
                 nextColor = com.manual.mediation.library.sotadlib.R.color.orangeLib,
+                nextBackground = com.manual.mediation.library.sotadlib.R.drawable.done_btn,
                 drawableResId = com.manual.mediation.library.sotadlib.R.drawable.ic_wt_1,
                 drawableBubbleResId = R.drawable.ic_launcher_foreground,
                 viewBackgroundColor = R.color.white,

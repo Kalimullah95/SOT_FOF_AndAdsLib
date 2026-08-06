@@ -10,6 +10,7 @@ data class WalkThroughItem(
     val headingColor: Int = 0,
     val descriptionColor: Int = 0,
     val nextColor: Int = 0,
+    val nextBackground: Int = 0,
     val drawableResId: Int = 0,
     val drawableBubbleResId: Int = 0,
     val viewBackgroundColor: Int = 0,
