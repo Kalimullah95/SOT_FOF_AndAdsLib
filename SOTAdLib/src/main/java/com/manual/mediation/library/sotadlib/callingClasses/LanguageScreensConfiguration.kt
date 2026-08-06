@@ -14,7 +14,6 @@ import com.manual.mediation.library.sotadlib.interfaces.LanguageInterface
 import com.manual.mediation.library.sotadlib.objects.StatusBarColor
 
 class LanguageScreensConfiguration private constructor() {
-
     private lateinit var activityContext: Activity
     private var languageInterface: LanguageInterface? = null
     var languageList: ArrayList<Language>? = null
@@ -28,6 +27,7 @@ class LanguageScreensConfiguration private constructor() {
      var statusBarColor: Int? = null
      var fontColor:Int? = null
      var headingColor:Int? = null
+    var nextButtonText: String? = null // 👈 Add this
 
     companion object {
         @SuppressLint("StaticFieldLeak")
@@ -62,12 +62,19 @@ class LanguageScreensConfiguration private constructor() {
         private var fontColor:Int? = null
         private var headingColor:Int? = null
         private var eventTracker: CommonEventTracker? = null
+        private var nextButtonText: String? = null // 👈 Add this
+
+
+        // Add a function to set the text
+        fun setNextButtonText(text: String) = apply {
+            this.nextButtonText = text
+        }
 
         fun setActivityContext(myActivity: Activity) = apply {
             this.activity = myActivity
         }
         fun setEventTracker(tracker: CommonEventTracker) = apply { this.eventTracker = tracker }
-        fun setDrawableColors(selectedDrawable: Drawable, unSelectedDrawable: Drawable, selectedRadio: Drawable, unSelectedRadio: Drawable,tickSelector:Drawable,themeColor:Int,statusBarColor:Int,font: Int,headingColor:Int) = apply {
+        fun setDrawableColors(selectedDrawable: Drawable, unSelectedDrawable: Drawable, selectedRadio: Drawable, unSelectedRadio: Drawable, tickSelector: Drawable, themeColor:Int, statusBarColor:Int, font: Int, headingColor:Int) = apply {
             this.selectedDrawable = selectedDrawable
             this.unSelectedDrawable = unSelectedDrawable
             this.selectedRadio = selectedRadio
@@ -88,6 +95,7 @@ class LanguageScreensConfiguration private constructor() {
                 throw IllegalStateException("Activity context must be provided")
             }
             val languageScreensConfiguration = LanguageScreensConfiguration()
+            languageScreensConfiguration.nextButtonText = this.nextButtonText // 👈 Assign it
             languageScreensConfiguration.activityContext = activity
             languageScreensConfiguration.languageList = languageList!!
             languageScreensConfiguration.selectedDrawable = selectedDrawable!!

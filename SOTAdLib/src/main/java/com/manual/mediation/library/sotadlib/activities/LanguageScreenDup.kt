@@ -7,6 +7,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.addCallback
+import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -22,10 +23,9 @@ import com.manual.mediation.library.sotadlib.utils.hideSystemUIUpdated
 import com.manual.mediation.library.sotadlib.utils.setStatusBarColor
 
 class LanguageScreenDup: AppCompatBaseActivity() {
-
     private lateinit var languageAdapter: LanguageAdapter
     private lateinit var recyclerView: RecyclerView
-    private lateinit var imvDone: AppCompatImageView
+    private lateinit var imvDone: AppCompatButton
     private lateinit var progressBar: ProgressBar
     private var sotAdsConfigurations: SOTAdsConfigurations? = null
     private var tracker: CommonEventTracker? = null
@@ -76,7 +76,11 @@ class LanguageScreenDup: AppCompatBaseActivity() {
                 findViewById<TextView>(R.id.txtAllLanguages).setTextColor(it)
             }
             config.tickSelector?.let {
-                findViewById<AppCompatImageView>(R.id.imvDone).setImageDrawable(it)
+                findViewById<AppCompatButton>(R.id.imvDone).background = it
+            }
+
+            config.nextButtonText?.let { customText ->
+                findViewById<AppCompatButton>(R.id.imvDone).text = customText
             }
             config.theme?.let {
                 val rootView = findViewById<View>(R.id.root_view)

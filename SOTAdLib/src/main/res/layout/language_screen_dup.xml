@@ -26,21 +26,28 @@
             android:textColor="@color/black"
             android:textSize="@dimen/_14ssp"
             app:fontFamily="@font/lexend_semibold"
-            app:layout_constraintBottom_toTopOf="@+id/txtAllLanguages"
             app:layout_constraintEnd_toStartOf="@+id/imvDone"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/recyclerViewLanguage"/>
 
-        <androidx.appcompat.widget.AppCompatImageView
+
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/imvDone"
-            android:layout_width="@dimen/_60sdp"
-            android:layout_height="0dp"
-            android:padding="@dimen/_5sdp"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="30dp"
+            android:background="@drawable/done_btn"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:paddingVertical="@dimen/_1sdp"
+            android:text="Next"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center"
+            android:textColor="@color/White"
             app:layout_constraintBottom_toBottomOf="@+id/txtSelectKeyboard"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/txtSelectKeyboard"
             app:layout_constraintTop_toTopOf="@+id/txtSelectKeyboard"
-             />
+            />
 
         <ProgressBar
             android:id="@+id/progressBar"
@@ -72,6 +79,7 @@
             android:id="@+id/recyclerViewLanguage"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

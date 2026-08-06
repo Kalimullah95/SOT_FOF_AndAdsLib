@@ -144,9 +144,9 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                     this,
                     com.manual.mediation.library.sotadlib.R.drawable.ic_radio_button_unchecked
                 )!!,
-                tickSelector = AppCompatResources.getDrawable(
+                tickSelector =AppCompatResources.getDrawable(
                     this,
-                    com.manual.mediation.library.sotadlib.R.drawable.ic_done
+                    com.manual.mediation.library.sotadlib.R.drawable.done_btn
                 )!!,
                 themeColor = ContextCompat.getColor(this, R.color.white),
                 statusBarColor = ContextCompat.getColor(this, R.color.white),
@@ -467,7 +467,6 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
         editor.putString(RemoteConfigConstTest.TIMER_NATIVE_F_SRC, "5")
         editor.putString(RemoteConfigConstTest.DELAY_TO_SHOW_LANGUAGE_DONE, "2000")
         editor.putBoolean(RemoteConfigConstTest.IS_PURCHASED, false)
-        //editor.putBoolean(IS_PURCHASED,pref.getBoolean(IS_PURCHASED,false))
 
         editor.apply()
     }
