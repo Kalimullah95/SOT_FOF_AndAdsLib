@@ -4,7 +4,6 @@ import android.content.Context
 import android.content.ContextWrapper
 import android.content.Intent
 import android.content.SharedPreferences
-import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
@@ -18,7 +17,6 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.content.ContextCompat
-import androidx.core.graphics.drawable.DrawableCompat
 import com.manual.mediation.library.sotadlib.activities.AppCompatBaseActivity
 import com.manual.mediation.library.sotadlib.adMobAdClasses.AdMobBannerAdSplash
 import com.manual.mediation.library.sotadlib.callingClasses.LanguageScreensConfiguration
@@ -97,12 +95,13 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                     "CB2F3812ACAA2A3D8C0B31682E1473EB",
                     "F02B044F22C917805C3DF6E99D3B8800",
                     "FF98A451C9A8BB057CA62040BCB32743"
-                )
+                           )
             )
             .setOnConsentGatheredCallback {
                 Log.i("ConsentMessage", "SOTStartActivity: setOnConsentGatheredCallback")
                 fetchAdIDS(
-                    remoteConfigOperationsCompleted = { remoteData ->
+                    remoteConfigOperationsCompleted = {
+                            remoteData ->
 
                         if (NetworkCheck.isNetworkAvailable(this)) {
                             if (remoteData.getValue(RemoteConfigConstTest.BANNER_SPLASH) == true) {
@@ -145,10 +144,9 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
                     this,
                     com.manual.mediation.library.sotadlib.R.drawable.ic_radio_button_unchecked
                 )!!,
-
                 tickSelector = AppCompatResources.getDrawable(
                     this,
-                    com.manual.mediation.library.sotadlib.R.drawable.done_btn
+                    com.manual.mediation.library.sotadlib.R.drawable.ic_done
                 )!!,
                 themeColor = ContextCompat.getColor(this, R.color.white),
                 statusBarColor = ContextCompat.getColor(this, R.color.white),
@@ -220,7 +218,6 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
             myRemoteConfigData = remoteData
         )
     }
-
     private fun gotoMainActivity() {
         val time = if (PrefHelper(this).getBooleanDefault("StartScreens", default = false)) {
             0
@@ -395,6 +392,9 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
     }
 
 
+
+
+
     private fun getWalkThroughList(context: Context): ArrayList<WalkThroughItem> {
         val localizedContext = ContextWrapper(context).createConfigurationContext(
             resources.configuration.apply { MyLocaleHelper.onAttach(context, "en") }
@@ -438,6 +438,7 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
     }
 
 
+
     private fun fetchAdIDS(remoteConfigOperationsCompleted: (HashMap<String, Any>) -> Unit) {
         if (NetworkCheck.isNetworkAvailable(this@SOTStartTestActivity)) {
             saveAllValues()
@@ -455,7 +456,7 @@ class SOTStartTestActivity : AppCompatBaseActivity() {
         editor.putBoolean(RemoteConfigConstTest.BANNER_SPLASH, true)
         editor.putBoolean(RemoteConfigConstTest.RESUME_OVERALL, true)
         editor.putBoolean(RemoteConfigConstTest.NATIVE_LANGUAGE_1, true)
-        editor.putBoolean(RemoteConfigConstTest.NATIVE_LANGUAGE_2, true)
+        editor.putBoolean(RemoteConfigConstTest.NATIVE_LANGUAGE_2, true )
         editor.putBoolean(RemoteConfigConstTest.NATIVE_SURVEY_1, true)
         editor.putBoolean(RemoteConfigConstTest.NATIVE_SURVEY_2, true)
         editor.putBoolean(RemoteConfigConstTest.NATIVE_WALKTHROUGH_1, true)
